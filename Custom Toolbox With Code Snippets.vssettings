@@ -1,0 +1,990 @@
+<UserSettings>
+	<ApplicationIdentity version="11.0"/>
+	<ToolsOptions/>
+	<Category name="Environment_Group" RegisteredName="Environment_Group">
+		<Category name="Environment_Toolbox" Category="{481999F2-7479-4e03-83D5-BE808BA142DF}" Package="{DA9FB551-C724-11d0-AE1F-00A0C90FFFC3}" RegisteredName="Environment_Toolbox" PackageName="Visual Studio Environment Package">
+			<PropertyValue name="ShowAllTabs">false</PropertyValue>
+			<PropertyValue name="Version">1</PropertyValue>
+			<PropertyValue name="DeletedTabCount">0</PropertyValue>
+			<PropertyValue name="Tab0.ID">ToolboxCategory_WinOEActivities</PropertyValue>
+			<PropertyValue name="Tab0.Name">Windows Workflow v3.0</PropertyValue>
+			<PropertyValue name="Tab0.View">0</PropertyValue>
+			<PropertyValue name="Tab0.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Tab0.RecordType">4</PropertyValue>
+			<PropertyValue name="Tab0.Position">3</PropertyValue>
+			<PropertyValue name="Tab1.ID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1071</PropertyValue>
+			<PropertyValue name="Tab1.Name">Standard</PropertyValue>
+			<PropertyValue name="Tab1.View">0</PropertyValue>
+			<PropertyValue name="Tab1.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Tab1.RecordType">4</PropertyValue>
+			<PropertyValue name="Tab1.Position">4</PropertyValue>
+			<PropertyValue name="Tab2.ID">Control Flow</PropertyValue>
+			<PropertyValue name="Tab2.Name">Control Flow</PropertyValue>
+			<PropertyValue name="Tab2.View">0</PropertyValue>
+			<PropertyValue name="Tab2.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Tab2.RecordType">4</PropertyValue>
+			<PropertyValue name="Tab2.Position">5</PropertyValue>
+			<PropertyValue name="Tab3.ID">{73422BED-2F83-4587-8A50-5B2BBE45F4B1}-#1000</PropertyValue>
+			<PropertyValue name="Tab3.Name">SharePoint Controls</PropertyValue>
+			<PropertyValue name="Tab3.View">0</PropertyValue>
+			<PropertyValue name="Tab3.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Tab3.RecordType">4</PropertyValue>
+			<PropertyValue name="Tab3.Position">8</PropertyValue>
+			<PropertyValue name="Tab4.ID">ToolboxCategory_WinOEActivities_v3.5</PropertyValue>
+			<PropertyValue name="Tab4.Name">Windows Workflow v3.5</PropertyValue>
+			<PropertyValue name="Tab4.View">0</PropertyValue>
+			<PropertyValue name="Tab4.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Tab4.RecordType">4</PropertyValue>
+			<PropertyValue name="Tab4.Position">9</PropertyValue>
+			<PropertyValue name="Tab5.ID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1072</PropertyValue>
+			<PropertyValue name="Tab5.Name">Data </PropertyValue>
+			<PropertyValue name="Tab5.View">0</PropertyValue>
+			<PropertyValue name="Tab5.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Tab5.RecordType">4</PropertyValue>
+			<PropertyValue name="Tab5.Position">10</PropertyValue>
+			<PropertyValue name="Tab6.ID">Flowchart</PropertyValue>
+			<PropertyValue name="Tab6.Name">Flowchart</PropertyValue>
+			<PropertyValue name="Tab6.View">0</PropertyValue>
+			<PropertyValue name="Tab6.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Tab6.RecordType">4</PropertyValue>
+			<PropertyValue name="Tab6.Position">11</PropertyValue>
+			<PropertyValue name="Tab7.ID">{7b5d447b-0b12-41ea-a84e-c822034422d4}-#1106</PropertyValue>
+			<PropertyValue name="Tab7.Name">All Windows Forms</PropertyValue>
+			<PropertyValue name="Tab7.View">0</PropertyValue>
+			<PropertyValue name="Tab7.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Tab7.RecordType">4</PropertyValue>
+			<PropertyValue name="Tab7.Position">12</PropertyValue>
+			<PropertyValue name="Tab8.ID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1073</PropertyValue>
+			<PropertyValue name="Tab8.Name">Validation</PropertyValue>
+			<PropertyValue name="Tab8.View">0</PropertyValue>
+			<PropertyValue name="Tab8.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Tab8.RecordType">4</PropertyValue>
+			<PropertyValue name="Tab8.Position">15</PropertyValue>
+			<PropertyValue name="Tab9.ID">Messaging</PropertyValue>
+			<PropertyValue name="Tab9.Name">Messaging</PropertyValue>
+			<PropertyValue name="Tab9.View">0</PropertyValue>
+			<PropertyValue name="Tab9.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Tab9.RecordType">4</PropertyValue>
+			<PropertyValue name="Tab9.Position">16</PropertyValue>
+			<PropertyValue name="Tab10.ID">{7b5d447b-0b12-41ea-a84e-c822034422d4}-#1107</PropertyValue>
+			<PropertyValue name="Tab10.Name">Common Controls</PropertyValue>
+			<PropertyValue name="Tab10.View">0</PropertyValue>
+			<PropertyValue name="Tab10.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Tab10.RecordType">4</PropertyValue>
+			<PropertyValue name="Tab10.Position">17</PropertyValue>
+			<PropertyValue name="Tab11.ID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1074</PropertyValue>
+			<PropertyValue name="Tab11.Name">Navigation</PropertyValue>
+			<PropertyValue name="Tab11.View">0</PropertyValue>
+			<PropertyValue name="Tab11.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Tab11.RecordType">4</PropertyValue>
+			<PropertyValue name="Tab11.Position">19</PropertyValue>
+			<PropertyValue name="Tab12.ID">Runtime</PropertyValue>
+			<PropertyValue name="Tab12.Name">Runtime</PropertyValue>
+			<PropertyValue name="Tab12.View">0</PropertyValue>
+			<PropertyValue name="Tab12.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Tab12.RecordType">4</PropertyValue>
+			<PropertyValue name="Tab12.Position">20</PropertyValue>
+			<PropertyValue name="Tab13.ID">{7b5d447b-0b12-41ea-a84e-c822034422d4}-#1102</PropertyValue>
+			<PropertyValue name="Tab13.Name">Containers</PropertyValue>
+			<PropertyValue name="Tab13.View">0</PropertyValue>
+			<PropertyValue name="Tab13.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Tab13.RecordType">4</PropertyValue>
+			<PropertyValue name="Tab13.Position">21</PropertyValue>
+			<PropertyValue name="Tab14.ID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1075</PropertyValue>
+			<PropertyValue name="Tab14.Name">Login</PropertyValue>
+			<PropertyValue name="Tab14.View">0</PropertyValue>
+			<PropertyValue name="Tab14.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Tab14.RecordType">4</PropertyValue>
+			<PropertyValue name="Tab14.Position">30</PropertyValue>
+			<PropertyValue name="Tab15.ID">Primitives</PropertyValue>
+			<PropertyValue name="Tab15.Name">Primitives</PropertyValue>
+			<PropertyValue name="Tab15.View">0</PropertyValue>
+			<PropertyValue name="Tab15.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Tab15.RecordType">4</PropertyValue>
+			<PropertyValue name="Tab15.Position">31</PropertyValue>
+			<PropertyValue name="Tab16.ID">{7b5d447b-0b12-41ea-a84e-c822034422d4}-#1103</PropertyValue>
+			<PropertyValue name="Tab16.Name">Menus &amp; Toolbars</PropertyValue>
+			<PropertyValue name="Tab16.View">0</PropertyValue>
+			<PropertyValue name="Tab16.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Tab16.RecordType">4</PropertyValue>
+			<PropertyValue name="Tab16.Position">32</PropertyValue>
+			<PropertyValue name="Tab17.ID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1076</PropertyValue>
+			<PropertyValue name="Tab17.Name">WebParts</PropertyValue>
+			<PropertyValue name="Tab17.View">0</PropertyValue>
+			<PropertyValue name="Tab17.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Tab17.RecordType">4</PropertyValue>
+			<PropertyValue name="Tab17.Position">33</PropertyValue>
+			<PropertyValue name="Tab18.ID">Transaction</PropertyValue>
+			<PropertyValue name="Tab18.Name">Transaction</PropertyValue>
+			<PropertyValue name="Tab18.View">0</PropertyValue>
+			<PropertyValue name="Tab18.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Tab18.RecordType">4</PropertyValue>
+			<PropertyValue name="Tab18.Position">34</PropertyValue>
+			<PropertyValue name="Tab19.ID">Data</PropertyValue>
+			<PropertyValue name="Tab19.Name">Data</PropertyValue>
+			<PropertyValue name="Tab19.View">0</PropertyValue>
+			<PropertyValue name="Tab19.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Tab19.RecordType">4</PropertyValue>
+			<PropertyValue name="Tab19.Position">35</PropertyValue>
+			<PropertyValue name="Tab20.ID">Collection</PropertyValue>
+			<PropertyValue name="Tab20.Name">Collection</PropertyValue>
+			<PropertyValue name="Tab20.View">0</PropertyValue>
+			<PropertyValue name="Tab20.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Tab20.RecordType">4</PropertyValue>
+			<PropertyValue name="Tab20.Position">37</PropertyValue>
+			<PropertyValue name="Tab21.ID">{7b5d447b-0b12-41ea-a84e-c822034422d4}-#1101</PropertyValue>
+			<PropertyValue name="Tab21.Name">Components</PropertyValue>
+			<PropertyValue name="Tab21.View">0</PropertyValue>
+			<PropertyValue name="Tab21.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Tab21.RecordType">4</PropertyValue>
+			<PropertyValue name="Tab21.Position">38</PropertyValue>
+			<PropertyValue name="Tab22.ID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1078</PropertyValue>
+			<PropertyValue name="Tab22.Name">AJAX Extensions</PropertyValue>
+			<PropertyValue name="Tab22.View">0</PropertyValue>
+			<PropertyValue name="Tab22.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Tab22.RecordType">4</PropertyValue>
+			<PropertyValue name="Tab22.Position">39</PropertyValue>
+			<PropertyValue name="Tab23.ID">Microsoft.VisualStudio.SharePoint.Designers.BusinessDataConnectivity.BusinessDataConnectivityToolboxTab</PropertyValue>
+			<PropertyValue name="Tab23.Name">BusinessDataConnectivity</PropertyValue>
+			<PropertyValue name="Tab23.View">0</PropertyValue>
+			<PropertyValue name="Tab23.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Tab23.RecordType">4</PropertyValue>
+			<PropertyValue name="Tab23.Position">40</PropertyValue>
+			<PropertyValue name="Tab24.ID">Error Handling</PropertyValue>
+			<PropertyValue name="Tab24.Name">Error Handling</PropertyValue>
+			<PropertyValue name="Tab24.View">0</PropertyValue>
+			<PropertyValue name="Tab24.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Tab24.RecordType">4</PropertyValue>
+			<PropertyValue name="Tab24.Position">41</PropertyValue>
+			<PropertyValue name="Tab25.ID">{7b5d447b-0b12-41ea-a84e-c822034422d4}-#1104</PropertyValue>
+			<PropertyValue name="Tab25.Name">Printing</PropertyValue>
+			<PropertyValue name="Tab25.View">0</PropertyValue>
+			<PropertyValue name="Tab25.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Tab25.RecordType">4</PropertyValue>
+			<PropertyValue name="Tab25.Position">42</PropertyValue>
+			<PropertyValue name="Tab26.ID">{e7f851c8-6267-4794-b0fe-7bcab6dacbb4}-#1079</PropertyValue>
+			<PropertyValue name="Tab26.Name">Dynamic Data</PropertyValue>
+			<PropertyValue name="Tab26.View">0</PropertyValue>
+			<PropertyValue name="Tab26.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Tab26.RecordType">4</PropertyValue>
+			<PropertyValue name="Tab26.Position">43</PropertyValue>
+			<PropertyValue name="Tab27.ID">Migration</PropertyValue>
+			<PropertyValue name="Tab27.Name">Migration</PropertyValue>
+			<PropertyValue name="Tab27.View">0</PropertyValue>
+			<PropertyValue name="Tab27.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Tab27.RecordType">4</PropertyValue>
+			<PropertyValue name="Tab27.Position">44</PropertyValue>
+			<PropertyValue name="Tab28.ID">{7b5d447b-0b12-41ea-a84e-c822034422d4}-#1105</PropertyValue>
+			<PropertyValue name="Tab28.Name">Dialogs</PropertyValue>
+			<PropertyValue name="Tab28.View">0</PropertyValue>
+			<PropertyValue name="Tab28.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Tab28.RecordType">4</PropertyValue>
+			<PropertyValue name="Tab28.Position">45</PropertyValue>
+			<PropertyValue name="Tab29.ID">SMS Basic MSTest</PropertyValue>
+			<PropertyValue name="Tab29.Name">SMS Basic MSTest</PropertyValue>
+			<PropertyValue name="Tab29.View">0</PropertyValue>
+			<PropertyValue name="Tab29.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Tab29.RecordType">1</PropertyValue>
+			<PropertyValue name="Tab29.Position">62</PropertyValue>
+			<PropertyValue name="Tab29.OriginalName">SMS Basic MSTest</PropertyValue>
+			<PropertyValue name="Tab30.ID">Stubs, Mock &amp; Shims</PropertyValue>
+			<PropertyValue name="Tab30.Name">SMS Rate Service</PropertyValue>
+			<PropertyValue name="Tab30.View">0</PropertyValue>
+			<PropertyValue name="Tab30.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Tab30.RecordType">1</PropertyValue>
+			<PropertyValue name="Tab30.Position">63</PropertyValue>
+			<PropertyValue name="Tab30.OriginalName">Stubs, Mock &amp; Shims</PropertyValue>
+			<PropertyValue name="Tab31.ID">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
+			<PropertyValue name="Tab31.Name">SMS Customer VM</PropertyValue>
+			<PropertyValue name="Tab31.View">0</PropertyValue>
+			<PropertyValue name="Tab31.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Tab31.RecordType">1</PropertyValue>
+			<PropertyValue name="Tab31.Position">64</PropertyValue>
+			<PropertyValue name="Tab31.OriginalName">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
+			<PropertyValue name="Tab32.ID">Stubs, Mocks &amp; Shims Stub Microsoft Fakes</PropertyValue>
+			<PropertyValue name="Tab32.Name">SMS Stub with Microsoft Fakes</PropertyValue>
+			<PropertyValue name="Tab32.View">0</PropertyValue>
+			<PropertyValue name="Tab32.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Tab32.RecordType">1</PropertyValue>
+			<PropertyValue name="Tab32.Position">65</PropertyValue>
+			<PropertyValue name="Tab32.OriginalName">Stubs, Mocks &amp; Shims Stub Microsoft Fakes</PropertyValue>
+			<PropertyValue name="Tab33.ID">SMS Mock with Microsoft Fakes</PropertyValue>
+			<PropertyValue name="Tab33.Name">SMS Mock with Moq</PropertyValue>
+			<PropertyValue name="Tab33.View">0</PropertyValue>
+			<PropertyValue name="Tab33.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Tab33.RecordType">1</PropertyValue>
+			<PropertyValue name="Tab33.Position">66</PropertyValue>
+			<PropertyValue name="Tab33.OriginalName">SMS Mock with Microsoft Fakes</PropertyValue>
+			<PropertyValue name="Tab34.ID">General</PropertyValue>
+			<PropertyValue name="Tab34.Name">SMS Shim with Microsoft Fakes</PropertyValue>
+			<PropertyValue name="Tab34.View">0</PropertyValue>
+			<PropertyValue name="Tab34.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Tab34.RecordType">2</PropertyValue>
+			<PropertyValue name="Tab34.OriginalName">General</PropertyValue>
+			<PropertyValue name="TabCount">35</PropertyValue>
+			<PropertyValue name="DeletedItemCount">0</PropertyValue>
+			<PropertyValue name="Item0.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item0.ID">BB158410B87D1067B2FC50AF3CAC7B61</PropertyValue>
+			<PropertyValue name="Item0.Name">01 Rules for CustomerViewModel</PropertyValue>
+			<PropertyValue name="Item0.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item0.Tab">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
+			<PropertyValue name="Item0.TabID">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
+			<PropertyValue name="Item0.OriginalTabID">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
+			<PropertyValue name="Item0.OriginalTab">SMS Customer VM</PropertyValue>
+			<PropertyValue name="Item0.RecordType">1</PropertyValue>
+			<PropertyValue name="Item0.Data">// Should return display rate as Gold if rating service is One
+        // Should return display rate as Ordinary if rating service is Zero</PropertyValue>
+			<PropertyValue name="Item0.Position">1</PropertyValue>
+			<PropertyValue name="Item1.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item1.ID">5C3D85C6DA767C50B14D361B4FAC7EE3</PropertyValue>
+			<PropertyValue name="Item1.Name">02 Test for Gold &amp; Ordinary</PropertyValue>
+			<PropertyValue name="Item1.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item1.Tab">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
+			<PropertyValue name="Item1.TabID">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
+			<PropertyValue name="Item1.OriginalTabID">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
+			<PropertyValue name="Item1.OriginalTab">SMS Customer VM</PropertyValue>
+			<PropertyValue name="Item1.RecordType">1</PropertyValue>
+			<PropertyValue name="Item1.Data">[Test]
+        public void ShouldReturnDisplayRateAsGoldIfRatingIsOne()
+        {
+            var sut = new CustomerViewModel(1);
+            var result = sut.DisplayRate;
+            Assert.That(result, Is.EqualTo("Gold"));
+        }
+
+        [Test]
+        public void ShouldReturnRateAsOrdinaryIfRatingIsZero()
+        {
+            var sut = new CustomerViewModel(1);
+            sut.Name = "Bob";
+            var result = sut.DisplayRate;
+            Assert.That(result, Is.EqualTo("Ordinary"));
+        }</PropertyValue>
+			<PropertyValue name="Item1.Position">2</PropertyValue>
+			<PropertyValue name="Item2.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item2.ID">667094BBCAE2419448120B90D90D4920</PropertyValue>
+			<PropertyValue name="Item2.Name">01 New Test for Gold &amp; Ordinary with Stub</PropertyValue>
+			<PropertyValue name="Item2.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item2.Tab">Stubs, Mocks &amp; Shims Stub Microsoft Fakes</PropertyValue>
+			<PropertyValue name="Item2.TabID">Stubs, Mocks &amp; Shims Stub Microsoft Fakes</PropertyValue>
+			<PropertyValue name="Item2.OriginalTabID">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
+			<PropertyValue name="Item2.OriginalTab">SMS Customer VM</PropertyValue>
+			<PropertyValue name="Item2.RecordType">1</PropertyValue>
+			<PropertyValue name="Item2.Data">[TestCase(1, "Gold")]
+        [TestCase(0, "Ordinary")]
+        public void ShouldReturnCorrectMessageGivenACertainRating(
+            int givenRating,
+            string expectedMessage)
+        {
+            var customer = new Customer { Name = "Test Person", Id = 1 };
+            var ratingService = new StubIRatingService();
+            var customerRepository = new StubICustomerRepository();
+
+            // !! Canned result !!
+            ratingService.RateCustomer = customerOverride =&gt; givenRating;
+
+            var sut = new CustomerViewModel(customer,
+                ratingService,
+                customerRepository);
+
+            var result = sut.DisplayRate;
+            Assert.That(result, Is.EqualTo(expectedMessage));
+        }</PropertyValue>
+			<PropertyValue name="Item2.Position">1</PropertyValue>
+			<PropertyValue name="Item3.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item3.ID">453D7CA241F20E6B74C51C3A9A272C8B</PropertyValue>
+			<PropertyValue name="Item3.Name">01 Rules for Customer Rate Service</PropertyValue>
+			<PropertyValue name="Item3.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item3.Tab">Stubs, Mock &amp; Shims</PropertyValue>
+			<PropertyValue name="Item3.TabID">Stubs, Mock &amp; Shims</PropertyValue>
+			<PropertyValue name="Item3.OriginalTabID">Stubs, Mock &amp; Shims</PropertyValue>
+			<PropertyValue name="Item3.OriginalTab">SMS Grader Service</PropertyValue>
+			<PropertyValue name="Item3.RecordType">1</PropertyValue>
+			<PropertyValue name="Item3.Data">//Should Rate Person with name that does not contain Mark as Zero
+        //Should Rate Person with name that does contain Mark as One        </PropertyValue>
+			<PropertyValue name="Item3.Position">1</PropertyValue>
+			<PropertyValue name="Item4.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item4.ID">B81E84758893AFFEF927475BFDC2FF6F</PropertyValue>
+			<PropertyValue name="Item4.Name">01 Rules for Mock</PropertyValue>
+			<PropertyValue name="Item4.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item4.Tab">SMS Mock with Microsoft Fakes</PropertyValue>
+			<PropertyValue name="Item4.TabID">SMS Mock with Microsoft Fakes</PropertyValue>
+			<PropertyValue name="Item4.OriginalTabID">SMS Mock with Microsoft Fakes</PropertyValue>
+			<PropertyValue name="Item4.OriginalTab">SMS Mock with Moq</PropertyValue>
+			<PropertyValue name="Item4.RecordType">1</PropertyValue>
+			<PropertyValue name="Item4.Data">// Should Call Save on Repo when ViewModel Update is called</PropertyValue>
+			<PropertyValue name="Item4.Position">1</PropertyValue>
+			<PropertyValue name="Item5.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item5.ID">1D8BE62614437447214E2F71625D7913</PropertyValue>
+			<PropertyValue name="Item5.Name">02 Incomplete checking If Save was called on Repo</PropertyValue>
+			<PropertyValue name="Item5.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item5.Tab">SMS Mock with Microsoft Fakes</PropertyValue>
+			<PropertyValue name="Item5.TabID">SMS Mock with Microsoft Fakes</PropertyValue>
+			<PropertyValue name="Item5.OriginalTabID">SMS Mock with Microsoft Fakes</PropertyValue>
+			<PropertyValue name="Item5.OriginalTab">SMS Mock with Moq</PropertyValue>
+			<PropertyValue name="Item5.RecordType">1</PropertyValue>
+			<PropertyValue name="Item5.Data">[Test]
+        public void ShouldSaveRepoWhenDataIsRefreshed()
+        {
+            var customer = new Customer {Name = "Test Person", Id = 1};
+            var ratingService = new StubIRatingService();
+            var customerRepository = new Mock&lt;ICustomerRepository&gt;();            
+
+            var sut = new CustomerViewModel(
+                customer, 
+                ratingService, 
+                customerRepository.Object);
+
+            sut.Update();
+
+            // ? How do we know it is happened?
+        }</PropertyValue>
+			<PropertyValue name="Item5.Position">2</PropertyValue>
+			<PropertyValue name="Item6.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item6.ID">0468F07D2C5DC4C501799130482CE645</PropertyValue>
+			<PropertyValue name="Item6.Name">03 Setting up Expectation on Repo Call</PropertyValue>
+			<PropertyValue name="Item6.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item6.Tab">SMS Mock with Microsoft Fakes</PropertyValue>
+			<PropertyValue name="Item6.TabID">SMS Mock with Microsoft Fakes</PropertyValue>
+			<PropertyValue name="Item6.OriginalTabID">SMS Mock with Microsoft Fakes</PropertyValue>
+			<PropertyValue name="Item6.OriginalTab">SMS Mock with Moq</PropertyValue>
+			<PropertyValue name="Item6.RecordType">1</PropertyValue>
+			<PropertyValue name="Item6.Data">// Set up expectation
+            customerRepository.Setup(
+                x =&gt; x.Save(It.IsAny&lt;Customer&gt;())).Verifiable();</PropertyValue>
+			<PropertyValue name="Item6.Position">3</PropertyValue>
+			<PropertyValue name="Item7.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item7.ID">BDCB32A5423E0DDBDAD6D4ABE602A858</PropertyValue>
+			<PropertyValue name="Item7.Name">01 Rules for Shim</PropertyValue>
+			<PropertyValue name="Item7.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item7.Tab">General</PropertyValue>
+			<PropertyValue name="Item7.TabID">General</PropertyValue>
+			<PropertyValue name="Item7.OriginalTabID">General</PropertyValue>
+			<PropertyValue name="Item7.OriginalTab">SMS Shim with Microsoft Fakes</PropertyValue>
+			<PropertyValue name="Item7.RecordType">1</PropertyValue>
+			<PropertyValue name="Item7.Data">// Last Updated Display Property must 
+        // show current Date / Time when Updated
+        // called</PropertyValue>
+			<PropertyValue name="Item7.Position">1</PropertyValue>
+			<PropertyValue name="Item8.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item8.ID">F9A29F50A5D14AD33E73A6E39E15AA63</PropertyValue>
+			<PropertyValue name="Item8.Name">02 Incomplete check if Last Updated DateTime</PropertyValue>
+			<PropertyValue name="Item8.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item8.Tab">General</PropertyValue>
+			<PropertyValue name="Item8.TabID">General</PropertyValue>
+			<PropertyValue name="Item8.OriginalTabID">General</PropertyValue>
+			<PropertyValue name="Item8.OriginalTab">SMS Shim with Microsoft Fakes</PropertyValue>
+			<PropertyValue name="Item8.RecordType">1</PropertyValue>
+			<PropertyValue name="Item8.Data">[Test]
+        public void ShouldUpdateLastUpdatedDateAfterRefreshing()
+        {
+            var customer = new Customer { Name = "Test Person", Id = 1 };
+            var dateTimeBefore = new DateTime(1980, 1, 19, 14, 0, 0);
+            var dateTimeAfter = new DateTime(1980, 1, 19, 15, 0, 0);
+
+            var ratingService = new StubIRatingService();
+            var customerRepository = new StubICustomerRepository();
+            
+            var sut = new CustomerViewModel(
+                customer, 
+                ratingService, 
+                customerRepository);
+
+            // !%!$ This will fail
+            Assert.That(sut.DisplayLastUpdated, Is.EqualTo(dateTimeBefore));
+
+            sut.Update();
+
+            // !%!$ This will fail also
+            Assert.That(sut.DisplayLastUpdated, Is.EqualTo(dateTimeAfter));
+        }</PropertyValue>
+			<PropertyValue name="Item8.Position">2</PropertyValue>
+			<PropertyValue name="Item9.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item9.ID">9812763491E1A59402C393E6501FCA3F</PropertyValue>
+			<PropertyValue name="Item9.Name">03 Shim DateTime.Now</PropertyValue>
+			<PropertyValue name="Item9.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item9.Tab">General</PropertyValue>
+			<PropertyValue name="Item9.TabID">General</PropertyValue>
+			<PropertyValue name="Item9.OriginalTabID">General</PropertyValue>
+			<PropertyValue name="Item9.OriginalTab">SMS Shim with Microsoft Fakes</PropertyValue>
+			<PropertyValue name="Item9.RecordType">1</PropertyValue>
+			<PropertyValue name="Item9.Data">using (ShimsContext.Create())
+            {
+                // Apply Shim 
+                ShimDateTime.NowGet = () =&gt; dateTimeBefore;
+                sut.Update();
+                
+                Assert.That(sut.DisplayLastUpdated, Is.EqualTo(dateTimeBefore));
+
+                // Apply Shim 
+                ShimDateTime.NowGet = () =&gt; dateTimeAfter;
+                sut.Update();
+
+                Assert.That(sut.DisplayLastUpdated, Is.EqualTo(dateTimeAfter));
+            }</PropertyValue>
+			<PropertyValue name="Item9.Position">3</PropertyValue>
+			<PropertyValue name="Item10.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item10.ID">6839CE269997040C2C696465ACFE5718</PropertyValue>
+			<PropertyValue name="Item10.Name">02 Rate a person that does not contain Mark</PropertyValue>
+			<PropertyValue name="Item10.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item10.Tab">Stubs, Mock &amp; Shims</PropertyValue>
+			<PropertyValue name="Item10.TabID">Stubs, Mock &amp; Shims</PropertyValue>
+			<PropertyValue name="Item10.OriginalTabID">Stubs, Mock &amp; Shims</PropertyValue>
+			<PropertyValue name="Item10.OriginalTab">SMS Rate Service</PropertyValue>
+			<PropertyValue name="Item10.RecordType">1</PropertyValue>
+			<PropertyValue name="Item10.Data">[Test]
+        public void ShouldRatePersonWithNameThatDoesNotContainMarkAsZero()
+        {
+            // Arrange
+            const int expectedRate = 0;
+            var sut = new RatingService();
+            var customer = new Customer { Name = "DoesNotContainM@rk", Id = 1 };
+
+            // Act
+            var result = sut.Rate(customer);
+
+            // Assert
+            Assert.AreEqual(result, expectedRate);
+        }</PropertyValue>
+			<PropertyValue name="Item10.Position">2</PropertyValue>
+			<PropertyValue name="Item11.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item11.ID">0F944B3B461FD888E76CAF4B98FD3FE3</PropertyValue>
+			<PropertyValue name="Item11.Name">03 Rate a person that contains Mark as 1</PropertyValue>
+			<PropertyValue name="Item11.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item11.Tab">Stubs, Mock &amp; Shims</PropertyValue>
+			<PropertyValue name="Item11.TabID">Stubs, Mock &amp; Shims</PropertyValue>
+			<PropertyValue name="Item11.OriginalTabID">Stubs, Mock &amp; Shims</PropertyValue>
+			<PropertyValue name="Item11.OriginalTab">SMS Rate Service</PropertyValue>
+			<PropertyValue name="Item11.RecordType">1</PropertyValue>
+			<PropertyValue name="Item11.Data">[Test]
+        public void ShouldRatePersonWithNameThatContainsMarkAsOne()
+        {
+            // Arrange
+            const int expectedRate = 1;
+            var sut = new RatingService();
+            var customer = new Customer { Name = "ContainsMark", Id = 1 };
+
+            // Act
+            var result = sut.Rate(customer);
+
+            // Assert
+            Assert.AreEqual(result, expectedRate);
+        }</PropertyValue>
+			<PropertyValue name="Item11.Position">3</PropertyValue>
+			<PropertyValue name="Item12.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item12.ID">BEAFBE3B7D2D1DB88053F14CE10B7D93</PropertyValue>
+			<PropertyValue name="Item12.Name">XX Completed Rate Service</PropertyValue>
+			<PropertyValue name="Item12.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item12.Tab">Stubs, Mock &amp; Shims</PropertyValue>
+			<PropertyValue name="Item12.TabID">Stubs, Mock &amp; Shims</PropertyValue>
+			<PropertyValue name="Item12.OriginalTabID">General</PropertyValue>
+			<PropertyValue name="Item12.OriginalTab">SMS Shim with Microsoft Fakes</PropertyValue>
+			<PropertyValue name="Item12.RecordType">1</PropertyValue>
+			<PropertyValue name="Item12.Data">public int Rate(Customer customer)
+        {
+            if (customer.Name.Contains("Mark")) return 1;
+            return 0;
+        }</PropertyValue>
+			<PropertyValue name="Item12.Position">4</PropertyValue>
+			<PropertyValue name="Item13.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item13.ID">E78D5F43D43F30508787BBE2FC0BF461</PropertyValue>
+			<PropertyValue name="Item13.Name">03 Rating Service Interface</PropertyValue>
+			<PropertyValue name="Item13.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item13.Tab">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
+			<PropertyValue name="Item13.TabID">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
+			<PropertyValue name="Item13.OriginalTabID">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
+			<PropertyValue name="Item13.OriginalTab">SMS Customer VM</PropertyValue>
+			<PropertyValue name="Item13.RecordType">1</PropertyValue>
+			<PropertyValue name="Item13.Data">public interface IRatingService
+    {
+        int Rate(Customer customer);
+    }</PropertyValue>
+			<PropertyValue name="Item13.Position">3</PropertyValue>
+			<PropertyValue name="Item14.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item14.ID">81F49D37EF642D1DE2A0AAE043FE5E0E</PropertyValue>
+			<PropertyValue name="Item14.Name">04 Customer Repo Interface</PropertyValue>
+			<PropertyValue name="Item14.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item14.Tab">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
+			<PropertyValue name="Item14.TabID">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
+			<PropertyValue name="Item14.OriginalTabID">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
+			<PropertyValue name="Item14.OriginalTab">SMS Customer VM</PropertyValue>
+			<PropertyValue name="Item14.RecordType">1</PropertyValue>
+			<PropertyValue name="Item14.Data">public interface ICustomerRepository
+    {
+        Customer GetById(int id);
+        IEnumerable&lt;Customer&gt; GetAll();
+        Customer Save(Customer customer);
+        void Delete(Customer customer);
+    }</PropertyValue>
+			<PropertyValue name="Item14.Position">4</PropertyValue>
+			<PropertyValue name="Item15.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item15.ID">877149E98965F104F8EBCEFC5BC9CEFE</PropertyValue>
+			<PropertyValue name="Item15.Name">05 Constructor for Injection</PropertyValue>
+			<PropertyValue name="Item15.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item15.Tab">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
+			<PropertyValue name="Item15.TabID">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
+			<PropertyValue name="Item15.OriginalTabID">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
+			<PropertyValue name="Item15.OriginalTab">SMS Customer VM</PropertyValue>
+			<PropertyValue name="Item15.RecordType">1</PropertyValue>
+			<PropertyValue name="Item15.Data">public CustomerViewModel(
+            Customer customer, 
+            IRatingService ratingService, 
+            ICustomerRepository customerRepository)
+        {
+            _customer = customer;
+            _ratingService = ratingService;
+            _customerRepository = customerRepository;
+            SaveCommand = new AlwaysExecuteCommand(Update);
+        }</PropertyValue>
+			<PropertyValue name="Item15.Position">5</PropertyValue>
+			<PropertyValue name="Item16.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item16.ID">C750AB11599BAC73B3192A017CD3F1AB</PropertyValue>
+			<PropertyValue name="Item16.Name">06 Change on App.xaml.cs</PropertyValue>
+			<PropertyValue name="Item16.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item16.Tab">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
+			<PropertyValue name="Item16.TabID">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
+			<PropertyValue name="Item16.OriginalTabID">General</PropertyValue>
+			<PropertyValue name="Item16.OriginalTab">SMS Shim with Microsoft Fakes</PropertyValue>
+			<PropertyValue name="Item16.RecordType">1</PropertyValue>
+			<PropertyValue name="Item16.Data">var cust = new Customer
+                {
+                    Email = "markpearl@gmail.com",
+                    Name = "Mark Pearl",
+                    Id = 1
+                };
+
+            _vm = new CustomerViewModel(cust, new RatingService(), new CustomerRepository());</PropertyValue>
+			<PropertyValue name="Item16.Position">6</PropertyValue>
+			<PropertyValue name="Item17.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item17.ID">194D7893D44AE53A0A5EB0A380220EC9</PropertyValue>
+			<PropertyValue name="Item17.Name">08 New Test for Gold &amp; Ordinary</PropertyValue>
+			<PropertyValue name="Item17.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item17.Tab">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
+			<PropertyValue name="Item17.TabID">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
+			<PropertyValue name="Item17.OriginalTabID">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
+			<PropertyValue name="Item17.OriginalTab">SMS Customer VM</PropertyValue>
+			<PropertyValue name="Item17.RecordType">1</PropertyValue>
+			<PropertyValue name="Item17.Data">[Test]
+        public void ShouldReturnRateAsGoldIfRatingIsOne()
+        {
+            var customer = new Customer { Name = "Test Person", Id = 1 };
+            var ratingService = new RatingService();
+            var customerRepository = new CustomerRepository();
+
+            var sut = new CustomerViewModel(
+                customer,
+                ratingService,
+                customerRepository);
+
+            var result = sut.DisplayRate;
+            Assert.That(result, Is.EqualTo("Gold"));
+        }
+
+        [Test]
+        public void ShouldReturnRateAsOrdinaryIfRatingIsZero()
+        {
+            var customer = new Customer { Name = "Test Person", Id = 1 };
+            var ratingService = new RatingService();
+            var customerRepository = new CustomerRepository();
+
+            var sut = new CustomerViewModel(
+                customer,
+                ratingService,
+                customerRepository);
+
+            var result = sut.DisplayRate;
+            Assert.That(result, Is.EqualTo("Ordinary"));
+        }</PropertyValue>
+			<PropertyValue name="Item17.Position">7</PropertyValue>
+			<PropertyValue name="Item18.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item18.ID">EF5DB47DEA7B690D11DBAE09804FCB2A</PropertyValue>
+			<PropertyValue name="Item18.Name">09 Rating Service Test Double</PropertyValue>
+			<PropertyValue name="Item18.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item18.Tab">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
+			<PropertyValue name="Item18.TabID">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
+			<PropertyValue name="Item18.OriginalTabID">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
+			<PropertyValue name="Item18.OriginalTab">SMS Customer VM</PropertyValue>
+			<PropertyValue name="Item18.RecordType">1</PropertyValue>
+			<PropertyValue name="Item18.Data">public class RatingServiceTestDouble : IRatingService
+        {
+            private readonly int _overrideRating;
+
+            public RatingServiceTestDouble(int overrideRating)
+            {
+                _overrideRating = overrideRating;
+            }
+
+            public int Rate(Customer customer)
+            {
+                return _overrideRating;
+            }
+        }</PropertyValue>
+			<PropertyValue name="Item18.Position">8</PropertyValue>
+			<PropertyValue name="Item19.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item19.ID">B2733D979783B329AC3DAFD641B12483</PropertyValue>
+			<PropertyValue name="Item19.Name">10 Customer Repo Test Double</PropertyValue>
+			<PropertyValue name="Item19.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item19.Tab">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
+			<PropertyValue name="Item19.TabID">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
+			<PropertyValue name="Item19.OriginalTabID">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
+			<PropertyValue name="Item19.OriginalTab">SMS Customer VM</PropertyValue>
+			<PropertyValue name="Item19.RecordType">1</PropertyValue>
+			<PropertyValue name="Item19.Data">public class CustomerRepositoryTestDouble : ICustomerRepository
+        {
+            public Customer GetById(int id)
+            {
+                throw new System.NotImplementedException();
+            }
+           
+            public Customer Save(Customer customer)
+            {
+                throw new System.NotImplementedException();
+            }
+
+            public IEnumerable&lt;Customer&gt; GetAll()
+            {
+                throw new System.NotImplementedException();
+            }
+
+            public void Delete(Customer customer)
+            {
+                throw new System.NotImplementedException();
+            }
+        }</PropertyValue>
+			<PropertyValue name="Item19.Position">9</PropertyValue>
+			<PropertyValue name="Item20.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item20.ID">871D8DCDB412DB5614159C4756A2977B</PropertyValue>
+			<PropertyValue name="Item20.Name">11 Consolidate Test for Gold &amp; Ordinary</PropertyValue>
+			<PropertyValue name="Item20.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item20.Tab">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
+			<PropertyValue name="Item20.TabID">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
+			<PropertyValue name="Item20.OriginalTabID">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
+			<PropertyValue name="Item20.OriginalTab">SMS Customer VM</PropertyValue>
+			<PropertyValue name="Item20.RecordType">1</PropertyValue>
+			<PropertyValue name="Item20.Data">[TestCase(1, "Gold")]
+        [TestCase(0, "Ordinary")]
+        public void ShouldReturnCorrectMessageGivenACertainRating(
+           int givenRating,
+           string expectedMessage)
+        {
+            var customer = new Customer { Name = "Test Person", Id = 1 };
+            var ratingService = new RatingServiceTestDouble(givenRating);
+            var customerRepository = new CustomerRepositoryTestDouble();
+
+            var sut = new CustomerViewModel(
+                customer, 
+                ratingService, 
+                customerRepository);
+
+            var result = sut.DisplayRate;
+            Assert.That(result, Is.EqualTo(expectedMessage));
+        }</PropertyValue>
+			<PropertyValue name="Item20.Position">10</PropertyValue>
+			<PropertyValue name="Item21.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
+			<PropertyValue name="Item21.ID">Microsoft.Office.Tools.Ribbon.RibbonBoxImpl, Microsoft.Office.Tools.Common.Implementation, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
+			<PropertyValue name="Item21.Name">Box</PropertyValue>
+			<PropertyValue name="Item21.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Item21.Tab">Office Ribbon Controls</PropertyValue>
+			<PropertyValue name="Item21.TabID">MSVSTORibbonV11</PropertyValue>
+			<PropertyValue name="Item21.OriginalTabID">MSVSTORibbonV11</PropertyValue>
+			<PropertyValue name="Item21.OriginalTab">Office Ribbon Controls</PropertyValue>
+			<PropertyValue name="Item21.RecordType">8</PropertyValue>
+			<PropertyValue name="Item21.Position">1</PropertyValue>
+			<PropertyValue name="Item22.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
+			<PropertyValue name="Item22.ID">Microsoft.Office.Tools.Ribbon.RibbonButtonImpl, Microsoft.Office.Tools.Common.Implementation, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
+			<PropertyValue name="Item22.Name">Button</PropertyValue>
+			<PropertyValue name="Item22.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Item22.Tab">Office Ribbon Controls</PropertyValue>
+			<PropertyValue name="Item22.TabID">MSVSTORibbonV11</PropertyValue>
+			<PropertyValue name="Item22.OriginalTabID">MSVSTORibbonV11</PropertyValue>
+			<PropertyValue name="Item22.OriginalTab">Office Ribbon Controls</PropertyValue>
+			<PropertyValue name="Item22.RecordType">8</PropertyValue>
+			<PropertyValue name="Item22.Position">2</PropertyValue>
+			<PropertyValue name="Item23.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
+			<PropertyValue name="Item23.ID">Microsoft.Office.Tools.Ribbon.RibbonButtonGroupImpl, Microsoft.Office.Tools.Common.Implementation, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
+			<PropertyValue name="Item23.Name">ButtonGroup</PropertyValue>
+			<PropertyValue name="Item23.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Item23.Tab">Office Ribbon Controls</PropertyValue>
+			<PropertyValue name="Item23.TabID">MSVSTORibbonV11</PropertyValue>
+			<PropertyValue name="Item23.OriginalTabID">MSVSTORibbonV11</PropertyValue>
+			<PropertyValue name="Item23.OriginalTab">Office Ribbon Controls</PropertyValue>
+			<PropertyValue name="Item23.RecordType">8</PropertyValue>
+			<PropertyValue name="Item23.Position">3</PropertyValue>
+			<PropertyValue name="Item24.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
+			<PropertyValue name="Item24.ID">Microsoft.Office.Tools.Ribbon.RibbonCheckBoxImpl, Microsoft.Office.Tools.Common.Implementation, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
+			<PropertyValue name="Item24.Name">CheckBox</PropertyValue>
+			<PropertyValue name="Item24.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Item24.Tab">Office Ribbon Controls</PropertyValue>
+			<PropertyValue name="Item24.TabID">MSVSTORibbonV11</PropertyValue>
+			<PropertyValue name="Item24.OriginalTabID">MSVSTORibbonV11</PropertyValue>
+			<PropertyValue name="Item24.OriginalTab">Office Ribbon Controls</PropertyValue>
+			<PropertyValue name="Item24.RecordType">8</PropertyValue>
+			<PropertyValue name="Item24.Position">4</PropertyValue>
+			<PropertyValue name="Item25.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
+			<PropertyValue name="Item25.ID">Microsoft.Office.Tools.Ribbon.RibbonComboBoxImpl, Microsoft.Office.Tools.Common.Implementation, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
+			<PropertyValue name="Item25.Name">ComboBox</PropertyValue>
+			<PropertyValue name="Item25.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Item25.Tab">Office Ribbon Controls</PropertyValue>
+			<PropertyValue name="Item25.TabID">MSVSTORibbonV11</PropertyValue>
+			<PropertyValue name="Item25.OriginalTabID">MSVSTORibbonV11</PropertyValue>
+			<PropertyValue name="Item25.OriginalTab">Office Ribbon Controls</PropertyValue>
+			<PropertyValue name="Item25.RecordType">8</PropertyValue>
+			<PropertyValue name="Item25.Position">5</PropertyValue>
+			<PropertyValue name="Item26.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
+			<PropertyValue name="Item26.ID">Microsoft.Office.Tools.Ribbon.RibbonDropDownImpl, Microsoft.Office.Tools.Common.Implementation, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
+			<PropertyValue name="Item26.Name">DropDown</PropertyValue>
+			<PropertyValue name="Item26.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Item26.Tab">Office Ribbon Controls</PropertyValue>
+			<PropertyValue name="Item26.TabID">MSVSTORibbonV11</PropertyValue>
+			<PropertyValue name="Item26.OriginalTabID">MSVSTORibbonV11</PropertyValue>
+			<PropertyValue name="Item26.OriginalTab">Office Ribbon Controls</PropertyValue>
+			<PropertyValue name="Item26.RecordType">8</PropertyValue>
+			<PropertyValue name="Item26.Position">6</PropertyValue>
+			<PropertyValue name="Item27.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
+			<PropertyValue name="Item27.ID">Microsoft.Office.Tools.Ribbon.RibbonEditBoxImpl, Microsoft.Office.Tools.Common.Implementation, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
+			<PropertyValue name="Item27.Name">EditBox</PropertyValue>
+			<PropertyValue name="Item27.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Item27.Tab">Office Ribbon Controls</PropertyValue>
+			<PropertyValue name="Item27.TabID">MSVSTORibbonV11</PropertyValue>
+			<PropertyValue name="Item27.OriginalTabID">MSVSTORibbonV11</PropertyValue>
+			<PropertyValue name="Item27.OriginalTab">Office Ribbon Controls</PropertyValue>
+			<PropertyValue name="Item27.RecordType">8</PropertyValue>
+			<PropertyValue name="Item27.Position">7</PropertyValue>
+			<PropertyValue name="Item28.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
+			<PropertyValue name="Item28.ID">Microsoft.Office.Tools.Ribbon.RibbonGalleryImpl, Microsoft.Office.Tools.Common.Implementation, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
+			<PropertyValue name="Item28.Name">Gallery</PropertyValue>
+			<PropertyValue name="Item28.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Item28.Tab">Office Ribbon Controls</PropertyValue>
+			<PropertyValue name="Item28.TabID">MSVSTORibbonV11</PropertyValue>
+			<PropertyValue name="Item28.OriginalTabID">MSVSTORibbonV11</PropertyValue>
+			<PropertyValue name="Item28.OriginalTab">Office Ribbon Controls</PropertyValue>
+			<PropertyValue name="Item28.RecordType">8</PropertyValue>
+			<PropertyValue name="Item28.Position">8</PropertyValue>
+			<PropertyValue name="Item29.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
+			<PropertyValue name="Item29.ID">Microsoft.Office.Tools.Ribbon.RibbonGroupImpl, Microsoft.Office.Tools.Common.Implementation, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
+			<PropertyValue name="Item29.Name">Group</PropertyValue>
+			<PropertyValue name="Item29.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Item29.Tab">Office Ribbon Controls</PropertyValue>
+			<PropertyValue name="Item29.TabID">MSVSTORibbonV11</PropertyValue>
+			<PropertyValue name="Item29.OriginalTabID">MSVSTORibbonV11</PropertyValue>
+			<PropertyValue name="Item29.OriginalTab">Office Ribbon Controls</PropertyValue>
+			<PropertyValue name="Item29.RecordType">8</PropertyValue>
+			<PropertyValue name="Item29.Position">9</PropertyValue>
+			<PropertyValue name="Item30.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
+			<PropertyValue name="Item30.ID">Microsoft.Office.Tools.Ribbon.RibbonLabelImpl, Microsoft.Office.Tools.Common.Implementation, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
+			<PropertyValue name="Item30.Name">Label</PropertyValue>
+			<PropertyValue name="Item30.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Item30.Tab">Office Ribbon Controls</PropertyValue>
+			<PropertyValue name="Item30.TabID">MSVSTORibbonV11</PropertyValue>
+			<PropertyValue name="Item30.OriginalTabID">MSVSTORibbonV11</PropertyValue>
+			<PropertyValue name="Item30.OriginalTab">Office Ribbon Controls</PropertyValue>
+			<PropertyValue name="Item30.RecordType">8</PropertyValue>
+			<PropertyValue name="Item30.Position">10</PropertyValue>
+			<PropertyValue name="Item31.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
+			<PropertyValue name="Item31.ID">Microsoft.Office.Tools.Ribbon.RibbonMenuImpl, Microsoft.Office.Tools.Common.Implementation, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
+			<PropertyValue name="Item31.Name">Menu</PropertyValue>
+			<PropertyValue name="Item31.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Item31.Tab">Office Ribbon Controls</PropertyValue>
+			<PropertyValue name="Item31.TabID">MSVSTORibbonV11</PropertyValue>
+			<PropertyValue name="Item31.OriginalTabID">MSVSTORibbonV11</PropertyValue>
+			<PropertyValue name="Item31.OriginalTab">Office Ribbon Controls</PropertyValue>
+			<PropertyValue name="Item31.RecordType">8</PropertyValue>
+			<PropertyValue name="Item31.Position">11</PropertyValue>
+			<PropertyValue name="Item32.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
+			<PropertyValue name="Item32.ID">Microsoft.Office.Tools.Ribbon.RibbonSeparatorImpl, Microsoft.Office.Tools.Common.Implementation, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
+			<PropertyValue name="Item32.Name">Separator</PropertyValue>
+			<PropertyValue name="Item32.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Item32.Tab">Office Ribbon Controls</PropertyValue>
+			<PropertyValue name="Item32.TabID">MSVSTORibbonV11</PropertyValue>
+			<PropertyValue name="Item32.OriginalTabID">MSVSTORibbonV11</PropertyValue>
+			<PropertyValue name="Item32.OriginalTab">Office Ribbon Controls</PropertyValue>
+			<PropertyValue name="Item32.RecordType">8</PropertyValue>
+			<PropertyValue name="Item32.Position">12</PropertyValue>
+			<PropertyValue name="Item33.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
+			<PropertyValue name="Item33.ID">Microsoft.Office.Tools.Ribbon.RibbonSplitButtonImpl, Microsoft.Office.Tools.Common.Implementation, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
+			<PropertyValue name="Item33.Name">SplitButton</PropertyValue>
+			<PropertyValue name="Item33.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Item33.Tab">Office Ribbon Controls</PropertyValue>
+			<PropertyValue name="Item33.TabID">MSVSTORibbonV11</PropertyValue>
+			<PropertyValue name="Item33.OriginalTabID">MSVSTORibbonV11</PropertyValue>
+			<PropertyValue name="Item33.OriginalTab">Office Ribbon Controls</PropertyValue>
+			<PropertyValue name="Item33.RecordType">8</PropertyValue>
+			<PropertyValue name="Item33.Position">13</PropertyValue>
+			<PropertyValue name="Item34.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
+			<PropertyValue name="Item34.ID">Microsoft.Office.Tools.Ribbon.RibbonTabImpl, Microsoft.Office.Tools.Common.Implementation, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
+			<PropertyValue name="Item34.Name">Tab</PropertyValue>
+			<PropertyValue name="Item34.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Item34.Tab">Office Ribbon Controls</PropertyValue>
+			<PropertyValue name="Item34.TabID">MSVSTORibbonV11</PropertyValue>
+			<PropertyValue name="Item34.OriginalTabID">MSVSTORibbonV11</PropertyValue>
+			<PropertyValue name="Item34.OriginalTab">Office Ribbon Controls</PropertyValue>
+			<PropertyValue name="Item34.RecordType">8</PropertyValue>
+			<PropertyValue name="Item34.Position">14</PropertyValue>
+			<PropertyValue name="Item35.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
+			<PropertyValue name="Item35.ID">Microsoft.Office.Tools.Ribbon.RibbonToggleButtonImpl, Microsoft.Office.Tools.Common.Implementation, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</PropertyValue>
+			<PropertyValue name="Item35.Name">ToggleButton</PropertyValue>
+			<PropertyValue name="Item35.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Item35.Tab">Office Ribbon Controls</PropertyValue>
+			<PropertyValue name="Item35.TabID">MSVSTORibbonV11</PropertyValue>
+			<PropertyValue name="Item35.OriginalTabID">MSVSTORibbonV11</PropertyValue>
+			<PropertyValue name="Item35.OriginalTab">Office Ribbon Controls</PropertyValue>
+			<PropertyValue name="Item35.RecordType">8</PropertyValue>
+			<PropertyValue name="Item35.Position">15</PropertyValue>
+			<PropertyValue name="Item36.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
+			<PropertyValue name="Item36.ID">Microsoft.VisualStudio.TeamArchitect.ActivityDesigner.LineToolboxItem</PropertyValue>
+			<PropertyValue name="Item36.Name">Line</PropertyValue>
+			<PropertyValue name="Item36.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Item36.Tab">Simple Shapes</PropertyValue>
+			<PropertyValue name="Item36.TabID">Microsoft.VisualStudio.TeamArchitect.LayerDesigner.Shell.Simple ShapesToolboxTab</PropertyValue>
+			<PropertyValue name="Item36.OriginalTabID">Microsoft.VisualStudio.TeamArchitect.LayerDesigner.Shell.Simple ShapesToolboxTab</PropertyValue>
+			<PropertyValue name="Item36.OriginalTab">Simple Shapes</PropertyValue>
+			<PropertyValue name="Item36.RecordType">8</PropertyValue>
+			<PropertyValue name="Item36.Position">1</PropertyValue>
+			<PropertyValue name="Item37.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
+			<PropertyValue name="Item37.ID">Microsoft.VisualStudio.TeamArchitect.UseCaseDesigner.LineToolboxItem</PropertyValue>
+			<PropertyValue name="Item37.Name">Line</PropertyValue>
+			<PropertyValue name="Item37.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Item37.Tab">Simple Shapes</PropertyValue>
+			<PropertyValue name="Item37.TabID">Microsoft.VisualStudio.TeamArchitect.LayerDesigner.Shell.Simple ShapesToolboxTab</PropertyValue>
+			<PropertyValue name="Item37.OriginalTabID">Microsoft.VisualStudio.TeamArchitect.LayerDesigner.Shell.Simple ShapesToolboxTab</PropertyValue>
+			<PropertyValue name="Item37.OriginalTab">Simple Shapes</PropertyValue>
+			<PropertyValue name="Item37.RecordType">8</PropertyValue>
+			<PropertyValue name="Item37.Position">2</PropertyValue>
+			<PropertyValue name="Item38.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
+			<PropertyValue name="Item38.ID">Microsoft.VisualStudio.TeamArchitect.ActivityDesigner.EllipseToolboxItem</PropertyValue>
+			<PropertyValue name="Item38.Name">Ellipse</PropertyValue>
+			<PropertyValue name="Item38.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Item38.Tab">Simple Shapes</PropertyValue>
+			<PropertyValue name="Item38.TabID">Microsoft.VisualStudio.TeamArchitect.LayerDesigner.Shell.Simple ShapesToolboxTab</PropertyValue>
+			<PropertyValue name="Item38.OriginalTabID">Microsoft.VisualStudio.TeamArchitect.LayerDesigner.Shell.Simple ShapesToolboxTab</PropertyValue>
+			<PropertyValue name="Item38.OriginalTab">Simple Shapes</PropertyValue>
+			<PropertyValue name="Item38.RecordType">8</PropertyValue>
+			<PropertyValue name="Item38.Position">4</PropertyValue>
+			<PropertyValue name="Item39.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
+			<PropertyValue name="Item39.ID">Microsoft.VisualStudio.TeamArchitect.UseCaseDesigner.EllipseToolboxItem</PropertyValue>
+			<PropertyValue name="Item39.Name">Ellipse</PropertyValue>
+			<PropertyValue name="Item39.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Item39.Tab">Simple Shapes</PropertyValue>
+			<PropertyValue name="Item39.TabID">Microsoft.VisualStudio.TeamArchitect.LayerDesigner.Shell.Simple ShapesToolboxTab</PropertyValue>
+			<PropertyValue name="Item39.OriginalTabID">Microsoft.VisualStudio.TeamArchitect.LayerDesigner.Shell.Simple ShapesToolboxTab</PropertyValue>
+			<PropertyValue name="Item39.OriginalTab">Simple Shapes</PropertyValue>
+			<PropertyValue name="Item39.RecordType">8</PropertyValue>
+			<PropertyValue name="Item39.Position">5</PropertyValue>
+			<PropertyValue name="Item40.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
+			<PropertyValue name="Item40.ID">Microsoft.VisualStudio.TeamArchitect.ActivityDesigner.RectangleToolboxItem</PropertyValue>
+			<PropertyValue name="Item40.Name">Rectangle</PropertyValue>
+			<PropertyValue name="Item40.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Item40.Tab">Simple Shapes</PropertyValue>
+			<PropertyValue name="Item40.TabID">Microsoft.VisualStudio.TeamArchitect.LayerDesigner.Shell.Simple ShapesToolboxTab</PropertyValue>
+			<PropertyValue name="Item40.OriginalTabID">Microsoft.VisualStudio.TeamArchitect.LayerDesigner.Shell.Simple ShapesToolboxTab</PropertyValue>
+			<PropertyValue name="Item40.OriginalTab">Simple Shapes</PropertyValue>
+			<PropertyValue name="Item40.RecordType">8</PropertyValue>
+			<PropertyValue name="Item40.Position">7</PropertyValue>
+			<PropertyValue name="Item41.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
+			<PropertyValue name="Item41.ID">Microsoft.VisualStudio.TeamArchitect.UseCaseDesigner.RectangleToolboxItem</PropertyValue>
+			<PropertyValue name="Item41.Name">Rectangle</PropertyValue>
+			<PropertyValue name="Item41.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Item41.Tab">Simple Shapes</PropertyValue>
+			<PropertyValue name="Item41.TabID">Microsoft.VisualStudio.TeamArchitect.LayerDesigner.Shell.Simple ShapesToolboxTab</PropertyValue>
+			<PropertyValue name="Item41.OriginalTabID">Microsoft.VisualStudio.TeamArchitect.LayerDesigner.Shell.Simple ShapesToolboxTab</PropertyValue>
+			<PropertyValue name="Item41.OriginalTab">Simple Shapes</PropertyValue>
+			<PropertyValue name="Item41.RecordType">8</PropertyValue>
+			<PropertyValue name="Item41.Position">8</PropertyValue>
+			<PropertyValue name="Item42.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
+			<PropertyValue name="Item42.ID">Microsoft.VisualStudio.TeamArchitect.ActivityDesigner.SimpleCommentToolboxItem</PropertyValue>
+			<PropertyValue name="Item42.Name">Comment</PropertyValue>
+			<PropertyValue name="Item42.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Item42.Tab">Simple Shapes</PropertyValue>
+			<PropertyValue name="Item42.TabID">Microsoft.VisualStudio.TeamArchitect.LayerDesigner.Shell.Simple ShapesToolboxTab</PropertyValue>
+			<PropertyValue name="Item42.OriginalTabID">Microsoft.VisualStudio.TeamArchitect.LayerDesigner.Shell.Simple ShapesToolboxTab</PropertyValue>
+			<PropertyValue name="Item42.OriginalTab">Simple Shapes</PropertyValue>
+			<PropertyValue name="Item42.RecordType">8</PropertyValue>
+			<PropertyValue name="Item42.Position">10</PropertyValue>
+			<PropertyValue name="Item43.DataProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
+			<PropertyValue name="Item43.ID">Microsoft.VisualStudio.TeamArchitect.UseCaseDesigner.SimpleCommentToolboxItem</PropertyValue>
+			<PropertyValue name="Item43.Name">Comment</PropertyValue>
+			<PropertyValue name="Item43.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Item43.Tab">Simple Shapes</PropertyValue>
+			<PropertyValue name="Item43.TabID">Microsoft.VisualStudio.TeamArchitect.LayerDesigner.Shell.Simple ShapesToolboxTab</PropertyValue>
+			<PropertyValue name="Item43.OriginalTabID">Microsoft.VisualStudio.TeamArchitect.LayerDesigner.Shell.Simple ShapesToolboxTab</PropertyValue>
+			<PropertyValue name="Item43.OriginalTab">Simple Shapes</PropertyValue>
+			<PropertyValue name="Item43.RecordType">8</PropertyValue>
+			<PropertyValue name="Item43.Position">11</PropertyValue>
+			<PropertyValue name="Item44.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item44.ID">0881E301CD82E6B6C2BFCB4B27ED9227</PropertyValue>
+			<PropertyValue name="Item44.Name">04 Verify Repo Call</PropertyValue>
+			<PropertyValue name="Item44.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item44.Tab">SMS Mock with Microsoft Fakes</PropertyValue>
+			<PropertyValue name="Item44.TabID">SMS Mock with Microsoft Fakes</PropertyValue>
+			<PropertyValue name="Item44.OriginalTabID">SMS Mock with Microsoft Fakes</PropertyValue>
+			<PropertyValue name="Item44.OriginalTab">SMS Mock with Moq</PropertyValue>
+			<PropertyValue name="Item44.RecordType">1</PropertyValue>
+			<PropertyValue name="Item44.Data">customerRepository.Verify();</PropertyValue>
+			<PropertyValue name="Item44.Position">4</PropertyValue>
+			<PropertyValue name="Item45.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item45.ID">3C8A502E19C5417A06F36C5D0EF1943F</PropertyValue>
+			<PropertyValue name="Item45.Name">XX Complete Test</PropertyValue>
+			<PropertyValue name="Item45.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item45.Tab">SMS Mock with Microsoft Fakes</PropertyValue>
+			<PropertyValue name="Item45.TabID">SMS Mock with Microsoft Fakes</PropertyValue>
+			<PropertyValue name="Item45.OriginalTabID">SMS Mock with Microsoft Fakes</PropertyValue>
+			<PropertyValue name="Item45.OriginalTab">SMS Mock with Moq</PropertyValue>
+			<PropertyValue name="Item45.RecordType">1</PropertyValue>
+			<PropertyValue name="Item45.Data">[Test]
+        public void ShouldSaveRepoWhenDataIsRefreshed()
+        {
+            var customer = new Customer {Name = "Test Person", Id = 1};
+            var ratingService = new StubIRatingService();
+            var customerRepository = new Mock&lt;ICustomerRepository&gt;();            
+
+            // Set up expectation
+            customerRepository.Setup(
+                x =&gt; x.Save(It.IsAny&lt;Customer&gt;())).Verifiable();
+
+            var sut = new CustomerViewModel(
+                customer, 
+                ratingService, 
+                customerRepository.Object);
+
+            sut.Update();
+
+            // ? How do we know it is happened?
+            customerRepository.Verify();
+        }</PropertyValue>
+			<PropertyValue name="Item45.Position">5</PropertyValue>
+			<PropertyValue name="Item46.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item46.ID">7D2131AD8676436E46BEF13E4EF0C5E6</PropertyValue>
+			<PropertyValue name="Item46.Name">Basic MSTests</PropertyValue>
+			<PropertyValue name="Item46.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item46.Tab">SMS Basic MSTest</PropertyValue>
+			<PropertyValue name="Item46.TabID">SMS Basic MSTest</PropertyValue>
+			<PropertyValue name="Item46.OriginalTabID">SMS Basic MSTest</PropertyValue>
+			<PropertyValue name="Item46.OriginalTab">SMS Basic MSTest</PropertyValue>
+			<PropertyValue name="Item46.RecordType">1</PropertyValue>
+			<PropertyValue name="Item46.Data">[TestClass]
+    public class UnitTest1
+    {
+        [TestMethod]
+        public void PassTest()
+        {
+            Assert.IsTrue(true);
+        }
+
+        [TestMethod]
+        public void FailTest()
+        {
+            Assert.Fail("Failed");
+        }
+
+        [TestMethod]
+        public void SlowTest()
+        {
+            Thread.Sleep(5000);
+            Assert.IsTrue(true);
+        }
+    }</PropertyValue>
+			<PropertyValue name="Item46.Position">1</PropertyValue>
+			<PropertyValue name="ItemCount">47</PropertyValue>
+		</Category>
+	</Category>
+</UserSettings>
