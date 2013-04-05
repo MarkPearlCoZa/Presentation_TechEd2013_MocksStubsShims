@@ -1,0 +1,40 @@
+﻿<Window x:Class="Customers.CustomerView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Background="LightBlue"
+        Title="CustomerView" Height="350" Width="525">
+    <Window.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="FontSize" Value="18"/>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="FontSize" Value="18"/>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="FontSize" Value="18"/>
+        </Style>
+    </Window.Resources>
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Name" Grid.Column="0" Grid.Row="0" />
+        <TextBox Text="{Binding Name}" Grid.Row="0" FontSize="16" Grid.Column="1"/>
+
+        <TextBlock Text="Rating" Grid.Column="0" Grid.Row="3" />
+        <TextBlock Text="{Binding DisplayRate}" Grid.Row="3" Grid.Column="1"/>
+        
+        <TextBlock Text="Last Updated " Grid.Column="0"  Grid.Row="4"/>
+        <TextBlock Text="{Binding DisplayLastUpdated, StringFormat=hh:mm:ss}"  Grid.Column="1" Grid.Row="4" />
+        <Button Content="Update" Command="{Binding SaveCommand}" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2"/>
+    </Grid>
+</Window>
