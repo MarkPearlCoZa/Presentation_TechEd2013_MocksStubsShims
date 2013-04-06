@@ -15,14 +15,12 @@ namespace Customers.ViewModels
 
         public AlwaysExecuteCommand SaveCommand { get; private set; }
 
-        public CustomerViewModel(
-            Customer customer, 
-            RatingService ratingService, 
-            CustomerRepository customerRepository)
+        public CustomerViewModel(int customerID)
         {
-            _customer = customer;
-            _ratingService = ratingService;
-            _customerRepository = customerRepository;
+            _ratingService = new RatingService();
+            _customerRepository = new CustomerRepository();
+            _customer = _customerRepository.GetById(customerID);
+
             SaveCommand = new AlwaysExecuteCommand(Update);
         }
 

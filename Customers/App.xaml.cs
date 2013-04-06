@@ -21,14 +21,8 @@ namespace Customers
         public Window _view;
 
         public App()
-        {
-            var cust = new Customer
-                {
-                    Name = "Mark Pearl",
-                    Id = 1
-                };
-
-            _vm = new CustomerViewModel(cust, new RatingService(), new CustomerRepository());
+        {        
+            _vm = new CustomerViewModel(1);
             _view = new CustomerView();
             _view.DataContext = _vm;
             _view.ShowDialog();
