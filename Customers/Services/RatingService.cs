@@ -13,8 +13,7 @@ namespace Customers.Services
     {
         public int Rate(Customer customer)
         {
-            if (customer.Name.Contains("Mark")) return 1;
-            return 0;
+            throw new ApplicationException("Not Implemented");
         }
     }
 }

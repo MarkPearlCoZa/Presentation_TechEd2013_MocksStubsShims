@@ -1,0 +1,3 @@
+rmdir /S Customers.Tests
+del *.playlist
+
