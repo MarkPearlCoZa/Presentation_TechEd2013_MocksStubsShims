@@ -9,16 +9,16 @@ namespace Customers.ViewModels
     public class CustomerViewModel : ViewModelBase
     {
         private Customer _customer;
-        private readonly IRatingService _ratingService;
-        private readonly ICustomerRepository _customerRepository;
+        private readonly RatingService _ratingService;
+        private readonly CustomerRepository _customerRepository;
         private DateTime _lastUpdated;
 
         public AlwaysExecuteCommand SaveCommand { get; private set; }
 
         public CustomerViewModel(
             Customer customer, 
-            IRatingService ratingService, 
-            ICustomerRepository customerRepository)
+            RatingService ratingService, 
+            CustomerRepository customerRepository)
         {
             _customer = customer;
             _ratingService = ratingService;

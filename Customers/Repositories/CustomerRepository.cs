@@ -5,15 +5,7 @@ using Customers.Services;
 
 namespace Customers.Repositories
 {
-    public interface ICustomerRepository
-    {
-        Customer GetById(int id);
-        IEnumerable<Customer> GetAll();
-        Customer Save(Customer customer);
-        void Delete(Customer customer);
-    }
-
-    public class CustomerRepository : ICustomerRepository
+    public class CustomerRepository
     {
         public Customer GetById(int id)
         {

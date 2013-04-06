@@ -1,0 +1,1 @@
+<Playlist Version="1.0"><Add Test="Customers.Tests.UnitTest1.FailTest" /><Add Test="Customers.Tests.UnitTest1.PassTest" /></Playlist>
