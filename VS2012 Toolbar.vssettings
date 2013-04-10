@@ -224,30 +224,87 @@
 			<PropertyValue name="TabCount">35</PropertyValue>
 			<PropertyValue name="DeletedItemCount">0</PropertyValue>
 			<PropertyValue name="Item0.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
-			<PropertyValue name="Item0.ID">BB158410B87D1067B2FC50AF3CAC7B61</PropertyValue>
-			<PropertyValue name="Item0.Name">01 Rules for CustomerViewModel</PropertyValue>
+			<PropertyValue name="Item0.ID">C90FE03E4193A3F885A11D7AB3033C62</PropertyValue>
+			<PropertyValue name="Item0.Name">01 New Test for Gold &amp; Ordinary with Stub</PropertyValue>
 			<PropertyValue name="Item0.UseDefaultName">false</PropertyValue>
-			<PropertyValue name="Item0.Tab">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
-			<PropertyValue name="Item0.TabID">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
-			<PropertyValue name="Item0.OriginalTabID">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
-			<PropertyValue name="Item0.OriginalTab">SMS Customer VM</PropertyValue>
+			<PropertyValue name="Item0.Tab">Stubs, Mocks &amp; Shims Stub Microsoft Fakes</PropertyValue>
+			<PropertyValue name="Item0.TabID">Stubs, Mocks &amp; Shims Stub Microsoft Fakes</PropertyValue>
+			<PropertyValue name="Item0.OriginalTabID">Stubs, Mocks &amp; Shims Stub Microsoft Fakes</PropertyValue>
+			<PropertyValue name="Item0.OriginalTab">SMS Stub with Microsoft Fakes</PropertyValue>
 			<PropertyValue name="Item0.RecordType">1</PropertyValue>
-			<PropertyValue name="Item0.Data">// Should return display rate as Gold if rating service is One
-        // Should return display rate as Ordinary if rating service is Zero</PropertyValue>
+			<PropertyValue name="Item0.Data">[Test]
+        public void ShouldReturnRateAsGoldIfRatingIsOne()
+        {
+            const int ratingServiceReturnValue = 1;
+            var customer = new Customer { Name = "Test Person", Id = 1 };
+            var ratingService = new StubIRatingService();
+            var customerRepository = new StubICustomerRepository();
+
+            // !! Canned result !!
+            ratingService.RateCustomer = customerOverride =&gt; ratingServiceReturnValue;
+
+            var sut = new CustomerViewModel(
+                customer,
+                ratingService,
+                customerRepository);
+
+            var result = sut.DisplayRate;
+            Assert.That(result, Is.EqualTo("Gold"));
+        }
+
+        [Test]
+        public void ShouldReturnRateAsOrdinaryIfRatingIsZero()
+        {
+            const int ratingServiceReturnValue = 0;
+            var customer = new Customer { Name = "Test Person", Id = 1 };
+            var ratingService = new StubIRatingService();
+            var customerRepository = new StubICustomerRepository();
+
+            // !! Canned result !!
+            ratingService.RateCustomer = customerOverride =&gt; ratingServiceReturnValue;
+
+            var sut = new CustomerViewModel(
+                customer,
+                ratingService,
+                customerRepository);
+
+            var result = sut.DisplayRate;
+            Assert.That(result, Is.EqualTo("Ordinary"));
+        }</PropertyValue>
 			<PropertyValue name="Item0.Position">1</PropertyValue>
 			<PropertyValue name="Item1.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
-			<PropertyValue name="Item1.ID">5C3D85C6DA767C50B14D361B4FAC7EE3</PropertyValue>
-			<PropertyValue name="Item1.Name">02 Test for Gold &amp; Ordinary</PropertyValue>
+			<PropertyValue name="Item1.ID">ECDAC17E79CB6C5EC7A8FEDC1C59CD3C</PropertyValue>
+			<PropertyValue name="Item1.Name">01 Rules for CustomerViewModel</PropertyValue>
 			<PropertyValue name="Item1.UseDefaultName">false</PropertyValue>
 			<PropertyValue name="Item1.Tab">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
 			<PropertyValue name="Item1.TabID">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
 			<PropertyValue name="Item1.OriginalTabID">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
 			<PropertyValue name="Item1.OriginalTab">SMS Customer VM</PropertyValue>
 			<PropertyValue name="Item1.RecordType">1</PropertyValue>
-			<PropertyValue name="Item1.Data">[Test]
+			<PropertyValue name="Item1.Data">[TestFixture]
+    public class CustomerViewModelTests
+    {
+        // Should return display rate as Gold if rating service is One
+        // Should return display rate as Ordinary if rating service is Zero
+
+
+         
+    }</PropertyValue>
+			<PropertyValue name="Item1.Position">1</PropertyValue>
+			<PropertyValue name="Item2.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item2.ID">BA7B10B7327F8F5CDEA595009CFCCDF5</PropertyValue>
+			<PropertyValue name="Item2.Name">02 Test for Gold &amp; Ordinary</PropertyValue>
+			<PropertyValue name="Item2.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item2.Tab">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
+			<PropertyValue name="Item2.TabID">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
+			<PropertyValue name="Item2.OriginalTabID">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
+			<PropertyValue name="Item2.OriginalTab">SMS Customer VM</PropertyValue>
+			<PropertyValue name="Item2.RecordType">1</PropertyValue>
+			<PropertyValue name="Item2.Data">[Test]
         public void ShouldReturnDisplayRateAsGoldIfRatingIsOne()
         {
             var sut = new CustomerViewModel(1);
+            sut.Name = "Puff Daddy in the House";
             var result = sut.DisplayRate;
             Assert.That(result, Is.EqualTo("Gold"));
         }
@@ -260,48 +317,23 @@
             var result = sut.DisplayRate;
             Assert.That(result, Is.EqualTo("Ordinary"));
         }</PropertyValue>
-			<PropertyValue name="Item1.Position">2</PropertyValue>
-			<PropertyValue name="Item2.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
-			<PropertyValue name="Item2.ID">667094BBCAE2419448120B90D90D4920</PropertyValue>
-			<PropertyValue name="Item2.Name">01 New Test for Gold &amp; Ordinary with Stub</PropertyValue>
-			<PropertyValue name="Item2.UseDefaultName">false</PropertyValue>
-			<PropertyValue name="Item2.Tab">Stubs, Mocks &amp; Shims Stub Microsoft Fakes</PropertyValue>
-			<PropertyValue name="Item2.TabID">Stubs, Mocks &amp; Shims Stub Microsoft Fakes</PropertyValue>
-			<PropertyValue name="Item2.OriginalTabID">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
-			<PropertyValue name="Item2.OriginalTab">SMS Customer VM</PropertyValue>
-			<PropertyValue name="Item2.RecordType">1</PropertyValue>
-			<PropertyValue name="Item2.Data">[TestCase(1, "Gold")]
-        [TestCase(0, "Ordinary")]
-        public void ShouldReturnCorrectMessageGivenACertainRating(
-            int givenRating,
-            string expectedMessage)
-        {
-            var customer = new Customer { Name = "Test Person", Id = 1 };
-            var ratingService = new StubIRatingService();
-            var customerRepository = new StubICustomerRepository();
-
-            // !! Canned result !!
-            ratingService.RateCustomer = customerOverride =&gt; givenRating;
-
-            var sut = new CustomerViewModel(customer,
-                ratingService,
-                customerRepository);
-
-            var result = sut.DisplayRate;
-            Assert.That(result, Is.EqualTo(expectedMessage));
-        }</PropertyValue>
-			<PropertyValue name="Item2.Position">1</PropertyValue>
+			<PropertyValue name="Item2.Position">2</PropertyValue>
 			<PropertyValue name="Item3.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
-			<PropertyValue name="Item3.ID">453D7CA241F20E6B74C51C3A9A272C8B</PropertyValue>
+			<PropertyValue name="Item3.ID">124EC3B3BF065F13C2C66245AF0CA2C3</PropertyValue>
 			<PropertyValue name="Item3.Name">01 Rules for Customer Rate Service</PropertyValue>
 			<PropertyValue name="Item3.UseDefaultName">false</PropertyValue>
 			<PropertyValue name="Item3.Tab">Stubs, Mock &amp; Shims</PropertyValue>
 			<PropertyValue name="Item3.TabID">Stubs, Mock &amp; Shims</PropertyValue>
 			<PropertyValue name="Item3.OriginalTabID">Stubs, Mock &amp; Shims</PropertyValue>
-			<PropertyValue name="Item3.OriginalTab">SMS Grader Service</PropertyValue>
+			<PropertyValue name="Item3.OriginalTab">SMS Rate Service</PropertyValue>
 			<PropertyValue name="Item3.RecordType">1</PropertyValue>
-			<PropertyValue name="Item3.Data">//Should Rate Person with name that does not contain Mark as Zero
-        //Should Rate Person with name that does contain Mark as One        </PropertyValue>
+			<PropertyValue name="Item3.Data">[TestFixture]
+    public class RatingServiceTests
+    {
+        //Should Rate Person with name that does not contain Puff Daddy as Zero
+        //Should Rate Person with name that does contain Puff Daddy as One        
+
+    }</PropertyValue>
 			<PropertyValue name="Item3.Position">1</PropertyValue>
 			<PropertyValue name="Item4.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
 			<PropertyValue name="Item4.ID">B81E84758893AFFEF927475BFDC2FF6F</PropertyValue>
@@ -424,7 +456,7 @@
             }</PropertyValue>
 			<PropertyValue name="Item9.Position">3</PropertyValue>
 			<PropertyValue name="Item10.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
-			<PropertyValue name="Item10.ID">6839CE269997040C2C696465ACFE5718</PropertyValue>
+			<PropertyValue name="Item10.ID">3AF8705908487C79E962D275C9180D31</PropertyValue>
 			<PropertyValue name="Item10.Name">02 Rate a person that does not contain Mark</PropertyValue>
 			<PropertyValue name="Item10.UseDefaultName">false</PropertyValue>
 			<PropertyValue name="Item10.Tab">Stubs, Mock &amp; Shims</PropertyValue>
@@ -433,12 +465,12 @@
 			<PropertyValue name="Item10.OriginalTab">SMS Rate Service</PropertyValue>
 			<PropertyValue name="Item10.RecordType">1</PropertyValue>
 			<PropertyValue name="Item10.Data">[Test]
-        public void ShouldRatePersonWithNameThatDoesNotContainMarkAsZero()
+        public void ShouldRatePersonWithNameThatDoesNotContainPuffDaddyAsZero()
         {
             // Arrange
             const int expectedRate = 0;
             var sut = new RatingService();
-            var customer = new Customer { Name = "DoesNotContainM@rk", Id = 1 };
+            var customer = new Customer { Name = "DoesNotContainName", Id = 1 };
 
             // Act
             var result = sut.Rate(customer);
@@ -448,8 +480,8 @@
         }</PropertyValue>
 			<PropertyValue name="Item10.Position">2</PropertyValue>
 			<PropertyValue name="Item11.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
-			<PropertyValue name="Item11.ID">0F944B3B461FD888E76CAF4B98FD3FE3</PropertyValue>
-			<PropertyValue name="Item11.Name">03 Rate a person that contains Mark as 1</PropertyValue>
+			<PropertyValue name="Item11.ID">138CE2406CA25E40859E18272F44CC13</PropertyValue>
+			<PropertyValue name="Item11.Name">03 Rate a person that does contain Puff Daddy</PropertyValue>
 			<PropertyValue name="Item11.UseDefaultName">false</PropertyValue>
 			<PropertyValue name="Item11.Tab">Stubs, Mock &amp; Shims</PropertyValue>
 			<PropertyValue name="Item11.TabID">Stubs, Mock &amp; Shims</PropertyValue>
@@ -457,12 +489,12 @@
 			<PropertyValue name="Item11.OriginalTab">SMS Rate Service</PropertyValue>
 			<PropertyValue name="Item11.RecordType">1</PropertyValue>
 			<PropertyValue name="Item11.Data">[Test]
-        public void ShouldRatePersonWithNameThatContainsMarkAsOne()
+        public void ShouldRatePersonWithNameThatContainsPuffDaddyAsOne()
         {
             // Arrange
             const int expectedRate = 1;
             var sut = new RatingService();
-            var customer = new Customer { Name = "ContainsMark", Id = 1 };
+            var customer = new Customer { Name = "Contains Puff Daddy", Id = 1 };
 
             // Act
             var result = sut.Rate(customer);
@@ -472,17 +504,17 @@
         }</PropertyValue>
 			<PropertyValue name="Item11.Position">3</PropertyValue>
 			<PropertyValue name="Item12.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
-			<PropertyValue name="Item12.ID">BEAFBE3B7D2D1DB88053F14CE10B7D93</PropertyValue>
+			<PropertyValue name="Item12.ID">CDF04CF7E9259B13FD80C0E726D2FDA3</PropertyValue>
 			<PropertyValue name="Item12.Name">XX Completed Rate Service</PropertyValue>
 			<PropertyValue name="Item12.UseDefaultName">false</PropertyValue>
 			<PropertyValue name="Item12.Tab">Stubs, Mock &amp; Shims</PropertyValue>
 			<PropertyValue name="Item12.TabID">Stubs, Mock &amp; Shims</PropertyValue>
-			<PropertyValue name="Item12.OriginalTabID">General</PropertyValue>
-			<PropertyValue name="Item12.OriginalTab">SMS Shim with Microsoft Fakes</PropertyValue>
+			<PropertyValue name="Item12.OriginalTabID">Stubs, Mock &amp; Shims</PropertyValue>
+			<PropertyValue name="Item12.OriginalTab">SMS Rate Service</PropertyValue>
 			<PropertyValue name="Item12.RecordType">1</PropertyValue>
 			<PropertyValue name="Item12.Data">public int Rate(Customer customer)
         {
-            if (customer.Name.Contains("Mark")) return 1;
+            if (customer.Name.Contains("Puff Daddy")) return 1;
             return 0;
         }</PropertyValue>
 			<PropertyValue name="Item12.Position">4</PropertyValue>
@@ -538,17 +570,16 @@
         }</PropertyValue>
 			<PropertyValue name="Item15.Position">5</PropertyValue>
 			<PropertyValue name="Item16.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
-			<PropertyValue name="Item16.ID">C750AB11599BAC73B3192A017CD3F1AB</PropertyValue>
+			<PropertyValue name="Item16.ID">0F9F64C466E2735A511BFB78B3EE573A</PropertyValue>
 			<PropertyValue name="Item16.Name">06 Change on App.xaml.cs</PropertyValue>
 			<PropertyValue name="Item16.UseDefaultName">false</PropertyValue>
 			<PropertyValue name="Item16.Tab">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
 			<PropertyValue name="Item16.TabID">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
-			<PropertyValue name="Item16.OriginalTabID">General</PropertyValue>
-			<PropertyValue name="Item16.OriginalTab">SMS Shim with Microsoft Fakes</PropertyValue>
+			<PropertyValue name="Item16.OriginalTabID">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
+			<PropertyValue name="Item16.OriginalTab">SMS Customer VM</PropertyValue>
 			<PropertyValue name="Item16.RecordType">1</PropertyValue>
 			<PropertyValue name="Item16.Data">var cust = new Customer
                 {
-                    Email = "markpearl@gmail.com",
                     Name = "Mark Pearl",
                     Id = 1
                 };
@@ -597,39 +628,15 @@
         }</PropertyValue>
 			<PropertyValue name="Item17.Position">7</PropertyValue>
 			<PropertyValue name="Item18.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
-			<PropertyValue name="Item18.ID">EF5DB47DEA7B690D11DBAE09804FCB2A</PropertyValue>
-			<PropertyValue name="Item18.Name">09 Rating Service Test Double</PropertyValue>
+			<PropertyValue name="Item18.ID">B2733D979783B329AC3DAFD641B12483</PropertyValue>
+			<PropertyValue name="Item18.Name">09 Customer Repo Test Double</PropertyValue>
 			<PropertyValue name="Item18.UseDefaultName">false</PropertyValue>
 			<PropertyValue name="Item18.Tab">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
 			<PropertyValue name="Item18.TabID">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
 			<PropertyValue name="Item18.OriginalTabID">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
 			<PropertyValue name="Item18.OriginalTab">SMS Customer VM</PropertyValue>
 			<PropertyValue name="Item18.RecordType">1</PropertyValue>
-			<PropertyValue name="Item18.Data">public class RatingServiceTestDouble : IRatingService
-        {
-            private readonly int _overrideRating;
-
-            public RatingServiceTestDouble(int overrideRating)
-            {
-                _overrideRating = overrideRating;
-            }
-
-            public int Rate(Customer customer)
-            {
-                return _overrideRating;
-            }
-        }</PropertyValue>
-			<PropertyValue name="Item18.Position">8</PropertyValue>
-			<PropertyValue name="Item19.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
-			<PropertyValue name="Item19.ID">B2733D979783B329AC3DAFD641B12483</PropertyValue>
-			<PropertyValue name="Item19.Name">10 Customer Repo Test Double</PropertyValue>
-			<PropertyValue name="Item19.UseDefaultName">false</PropertyValue>
-			<PropertyValue name="Item19.Tab">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
-			<PropertyValue name="Item19.TabID">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
-			<PropertyValue name="Item19.OriginalTabID">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
-			<PropertyValue name="Item19.OriginalTab">SMS Customer VM</PropertyValue>
-			<PropertyValue name="Item19.RecordType">1</PropertyValue>
-			<PropertyValue name="Item19.Data">public class CustomerRepositoryTestDouble : ICustomerRepository
+			<PropertyValue name="Item18.Data">public class CustomerRepositoryTestDouble : ICustomerRepository
         {
             public Customer GetById(int id)
             {
@@ -651,10 +658,34 @@
                 throw new System.NotImplementedException();
             }
         }</PropertyValue>
+			<PropertyValue name="Item18.Position">8</PropertyValue>
+			<PropertyValue name="Item19.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item19.ID">EF5DB47DEA7B690D11DBAE09804FCB2A</PropertyValue>
+			<PropertyValue name="Item19.Name">10 Rating Service Test Double</PropertyValue>
+			<PropertyValue name="Item19.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item19.Tab">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
+			<PropertyValue name="Item19.TabID">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
+			<PropertyValue name="Item19.OriginalTabID">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
+			<PropertyValue name="Item19.OriginalTab">SMS Customer VM</PropertyValue>
+			<PropertyValue name="Item19.RecordType">1</PropertyValue>
+			<PropertyValue name="Item19.Data">public class RatingServiceTestDouble : IRatingService
+        {
+            private readonly int _overrideRating;
+
+            public RatingServiceTestDouble(int overrideRating)
+            {
+                _overrideRating = overrideRating;
+            }
+
+            public int Rate(Customer customer)
+            {
+                return _overrideRating;
+            }
+        }</PropertyValue>
 			<PropertyValue name="Item19.Position">9</PropertyValue>
 			<PropertyValue name="Item20.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
 			<PropertyValue name="Item20.ID">871D8DCDB412DB5614159C4756A2977B</PropertyValue>
-			<PropertyValue name="Item20.Name">11 Consolidate Test for Gold &amp; Ordinary</PropertyValue>
+			<PropertyValue name="Item20.Name">XX Consolidate Test for Gold &amp; Ordinary</PropertyValue>
 			<PropertyValue name="Item20.UseDefaultName">false</PropertyValue>
 			<PropertyValue name="Item20.Tab">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
 			<PropertyValue name="Item20.TabID">Stubs, Mocks &amp; Shims Customer VM</PropertyValue>
@@ -984,7 +1015,26 @@
         }
     }</PropertyValue>
 			<PropertyValue name="Item46.Position">1</PropertyValue>
-			<PropertyValue name="ItemCount">47</PropertyValue>
+			<PropertyValue name="Item47.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item47.ID">7E6BD822F125917F1B2E477FB87CAD43</PropertyValue>
+			<PropertyValue name="Item47.Name">Basic NUnit Tests</PropertyValue>
+			<PropertyValue name="Item47.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item47.Tab">SMS Basic MSTest</PropertyValue>
+			<PropertyValue name="Item47.TabID">SMS Basic MSTest</PropertyValue>
+			<PropertyValue name="Item47.OriginalTabID">Stubs, Mock &amp; Shims</PropertyValue>
+			<PropertyValue name="Item47.OriginalTab">SMS Rate Service</PropertyValue>
+			<PropertyValue name="Item47.RecordType">1</PropertyValue>
+			<PropertyValue name="Item47.Data">[TestFixture]
+    public class NUnitTestClass
+    {
+        [Test]
+        public void This_Is_A_NUnitTest()
+        {
+            Assert.That(true, Is.EqualTo(true));
+        }
+    }</PropertyValue>
+			<PropertyValue name="Item47.Position">2</PropertyValue>
+			<PropertyValue name="ItemCount">48</PropertyValue>
 		</Category>
 	</Category>
 </UserSettings>
