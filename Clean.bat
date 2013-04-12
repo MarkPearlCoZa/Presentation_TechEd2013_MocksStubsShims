@@ -1,9 +1,4 @@
 git checkout master
 git reset --hard
 git clean -f -d
-rmdir /S Customers.Tests
-rmdir /S Customer.Tests
-del *.playlist
-cd Customers
-rmdir /S bin
-rmdir /S obj
+
