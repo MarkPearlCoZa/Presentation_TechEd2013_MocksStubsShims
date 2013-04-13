@@ -221,7 +221,42 @@
 			<PropertyValue name="Tab34.UseDefaultName">false</PropertyValue>
 			<PropertyValue name="Tab34.RecordType">2</PropertyValue>
 			<PropertyValue name="Tab34.OriginalName">General</PropertyValue>
-			<PropertyValue name="TabCount">35</PropertyValue>
+			<PropertyValue name="Tab35.ID">MVVM Basic Binding</PropertyValue>
+			<PropertyValue name="Tab35.Name">MVVM Basic Binding</PropertyValue>
+			<PropertyValue name="Tab35.View">0</PropertyValue>
+			<PropertyValue name="Tab35.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Tab35.RecordType">1</PropertyValue>
+			<PropertyValue name="Tab35.Position">68</PropertyValue>
+			<PropertyValue name="Tab35.OriginalName">MVVM Basic Binding</PropertyValue>
+			<PropertyValue name="Tab36.ID">MVVM Basic Commands</PropertyValue>
+			<PropertyValue name="Tab36.Name">MVVM Basic Commands</PropertyValue>
+			<PropertyValue name="Tab36.View">0</PropertyValue>
+			<PropertyValue name="Tab36.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Tab36.RecordType">1</PropertyValue>
+			<PropertyValue name="Tab36.Position">69</PropertyValue>
+			<PropertyValue name="Tab36.OriginalName">MVVM Basic Commands</PropertyValue>
+			<PropertyValue name="Tab37.ID">MVVM Converters</PropertyValue>
+			<PropertyValue name="Tab37.Name">MVVM Converters</PropertyValue>
+			<PropertyValue name="Tab37.View">0</PropertyValue>
+			<PropertyValue name="Tab37.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Tab37.RecordType">1</PropertyValue>
+			<PropertyValue name="Tab37.Position">70</PropertyValue>
+			<PropertyValue name="Tab37.OriginalName">MVVM Converters</PropertyValue>
+			<PropertyValue name="Tab38.ID">MVVM Behaviours</PropertyValue>
+			<PropertyValue name="Tab38.Name">MVVM Behaviours</PropertyValue>
+			<PropertyValue name="Tab38.View">0</PropertyValue>
+			<PropertyValue name="Tab38.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Tab38.RecordType">1</PropertyValue>
+			<PropertyValue name="Tab38.Position">71</PropertyValue>
+			<PropertyValue name="Tab38.OriginalName">MVVM Behaviours</PropertyValue>
+			<PropertyValue name="Tab39.ID">MVVM View First</PropertyValue>
+			<PropertyValue name="Tab39.Name">MVVM View First</PropertyValue>
+			<PropertyValue name="Tab39.View">0</PropertyValue>
+			<PropertyValue name="Tab39.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Tab39.RecordType">1</PropertyValue>
+			<PropertyValue name="Tab39.Position">72</PropertyValue>
+			<PropertyValue name="Tab39.OriginalName">MVVM View First</PropertyValue>
+			<PropertyValue name="TabCount">40</PropertyValue>
 			<PropertyValue name="DeletedItemCount">0</PropertyValue>
 			<PropertyValue name="Item0.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
 			<PropertyValue name="Item0.ID">C90FE03E4193A3F885A11D7AB3033C62</PropertyValue>
@@ -1034,7 +1069,340 @@
         }
     }</PropertyValue>
 			<PropertyValue name="Item47.Position">2</PropertyValue>
-			<PropertyValue name="ItemCount">48</PropertyValue>
+			<PropertyValue name="Item48.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item48.ID">1F0C6D7786B6C80699EBC7CC30FA1475</PropertyValue>
+			<PropertyValue name="Item48.Name">00 CS Set DataContext</PropertyValue>
+			<PropertyValue name="Item48.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item48.Tab">MVVM Basic Binding</PropertyValue>
+			<PropertyValue name="Item48.TabID">MVVM Basic Binding</PropertyValue>
+			<PropertyValue name="Item48.OriginalTabID">MVVM Basic Binding</PropertyValue>
+			<PropertyValue name="Item48.OriginalTab">MVVM Basic Binding</PropertyValue>
+			<PropertyValue name="Item48.RecordType">1</PropertyValue>
+			<PropertyValue name="Item48.Data">DataContext = _cusotmer;</PropertyValue>
+			<PropertyValue name="Item48.Position">1</PropertyValue>
+			<PropertyValue name="Item49.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item49.ID">3C1992138014FFEE4C2616D250555C38</PropertyValue>
+			<PropertyValue name="Item49.Name">00 XAML Binding</PropertyValue>
+			<PropertyValue name="Item49.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item49.Tab">MVVM Basic Binding</PropertyValue>
+			<PropertyValue name="Item49.TabID">MVVM Basic Binding</PropertyValue>
+			<PropertyValue name="Item49.OriginalTabID">MVVM Basic Binding</PropertyValue>
+			<PropertyValue name="Item49.OriginalTab">MVVM Basic Binding</PropertyValue>
+			<PropertyValue name="Item49.RecordType">1</PropertyValue>
+			<PropertyValue name="Item49.Data">&lt;TextBox Text="{Binding Name}"&gt;&lt;/TextBox&gt;
+        &lt;ListBox ItemsSource="{Binding Nicknames}" Grid.Row="1"/&gt;</PropertyValue>
+			<PropertyValue name="Item49.Position">2</PropertyValue>
+			<PropertyValue name="Item50.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item50.ID">FD3156E2CCED411CE9A92E78D391ACA5</PropertyValue>
+			<PropertyValue name="Item50.Name">00 CS PropertyChanged</PropertyValue>
+			<PropertyValue name="Item50.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item50.Tab">MVVM Basic Binding</PropertyValue>
+			<PropertyValue name="Item50.TabID">MVVM Basic Binding</PropertyValue>
+			<PropertyValue name="Item50.OriginalTabID">MVVM Basic Binding</PropertyValue>
+			<PropertyValue name="Item50.OriginalTab">MVVM Basic Binding</PropertyValue>
+			<PropertyValue name="Item50.RecordType">1</PropertyValue>
+			<PropertyValue name="Item50.Data">public event PropertyChangedEventHandler PropertyChanged;
+
+        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        {
+            PropertyChangedEventHandler handler = PropertyChanged;
+            if (handler != null) handler(this, new PropertyChangedEventArgs(propertyName));
+        }</PropertyValue>
+			<PropertyValue name="Item50.Position">3</PropertyValue>
+			<PropertyValue name="Item51.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item51.ID">6995DCDF8219A1D26D88D9627C57D1AB</PropertyValue>
+			<PropertyValue name="Item51.Name">XAML Button Binding</PropertyValue>
+			<PropertyValue name="Item51.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item51.Tab">MVVM Basic Commands</PropertyValue>
+			<PropertyValue name="Item51.TabID">MVVM Basic Commands</PropertyValue>
+			<PropertyValue name="Item51.OriginalTabID">MVVM Basic Commands</PropertyValue>
+			<PropertyValue name="Item51.OriginalTab">MVVM Basic Commands</PropertyValue>
+			<PropertyValue name="Item51.RecordType">1</PropertyValue>
+			<PropertyValue name="Item51.Data">&lt;Button Content="Button" Command="{Binding DoSomething}" Grid.Row="2" /&gt;</PropertyValue>
+			<PropertyValue name="Item51.Position">1</PropertyValue>
+			<PropertyValue name="Item52.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item52.ID">6BC202CC2D43F305756F7CDCE5572C90</PropertyValue>
+			<PropertyValue name="Item52.Name">CS Command Property</PropertyValue>
+			<PropertyValue name="Item52.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item52.Tab">MVVM Basic Commands</PropertyValue>
+			<PropertyValue name="Item52.TabID">MVVM Basic Commands</PropertyValue>
+			<PropertyValue name="Item52.OriginalTabID">MVVM Basic Commands</PropertyValue>
+			<PropertyValue name="Item52.OriginalTab">MVVM Basic Commands</PropertyValue>
+			<PropertyValue name="Item52.RecordType">1</PropertyValue>
+			<PropertyValue name="Item52.Data">public ICommand DoSomething { get; set; }</PropertyValue>
+			<PropertyValue name="Item52.Position">2</PropertyValue>
+			<PropertyValue name="Item53.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item53.ID">5D069F86B21122B52BEAFEC86751A5F6</PropertyValue>
+			<PropertyValue name="Item53.Name">CS DoSomething  Command</PropertyValue>
+			<PropertyValue name="Item53.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item53.Tab">MVVM Basic Commands</PropertyValue>
+			<PropertyValue name="Item53.TabID">MVVM Basic Commands</PropertyValue>
+			<PropertyValue name="Item53.OriginalTabID">MVVM Basic Commands</PropertyValue>
+			<PropertyValue name="Item53.OriginalTab">MVVM Basic Commands</PropertyValue>
+			<PropertyValue name="Item53.RecordType">1</PropertyValue>
+			<PropertyValue name="Item53.Data">public class DoSomethingCommand : ICommand
+    {
+        private readonly MainViewModel _viewModel;
+
+        public bool CanExecute(object parameter)
+        {
+            return true;
+        }
+
+        public void Execute(object parameter)
+        {
+            MessageBox.Show("Hello " + _viewModel.Name);
+        }
+
+        public DoSomethingCommand(MainViewModel viewModel)
+        {
+            _viewModel = viewModel;
+        }
+
+        public event EventHandler CanExecuteChanged;
+    }</PropertyValue>
+			<PropertyValue name="Item53.Position">3</PropertyValue>
+			<PropertyValue name="Item54.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item54.ID">32E7289581CCA632AF499EA13CC708B8</PropertyValue>
+			<PropertyValue name="Item54.Name">CS Ctor for Command</PropertyValue>
+			<PropertyValue name="Item54.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item54.Tab">MVVM Basic Commands</PropertyValue>
+			<PropertyValue name="Item54.TabID">MVVM Basic Commands</PropertyValue>
+			<PropertyValue name="Item54.OriginalTabID">MVVM Basic Commands</PropertyValue>
+			<PropertyValue name="Item54.OriginalTab">MVVM Basic Commands</PropertyValue>
+			<PropertyValue name="Item54.RecordType">1</PropertyValue>
+			<PropertyValue name="Item54.Data"> public MainViewModel()
+        {
+            DoSomething = new DoSomethingCommand(this);
+        }</PropertyValue>
+			<PropertyValue name="Item54.Position">4</PropertyValue>
+			<PropertyValue name="Item55.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item55.ID">0A9478C04F619626BB3DC27A4F966EC9</PropertyValue>
+			<PropertyValue name="Item55.Name">CS Delegate Command</PropertyValue>
+			<PropertyValue name="Item55.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item55.Tab">MVVM Basic Commands</PropertyValue>
+			<PropertyValue name="Item55.TabID">MVVM Basic Commands</PropertyValue>
+			<PropertyValue name="Item55.OriginalTabID">MVVM Basic Commands</PropertyValue>
+			<PropertyValue name="Item55.OriginalTab">MVVM Basic Commands</PropertyValue>
+			<PropertyValue name="Item55.RecordType">1</PropertyValue>
+			<PropertyValue name="Item55.Data">public class DelegateCommand : ICommand
+    {
+        private readonly Action _executeMethod;
+        private readonly Func&lt;bool&gt; _canExecute;
+
+        public DelegateCommand(Action executeMethod, Func&lt;bool&gt; canExecute)
+        {
+            _executeMethod = executeMethod;
+            _canExecute = canExecute;
+        }
+
+        public void Execute(object parameter)
+        {
+            _executeMethod.Invoke();
+        }
+
+        public bool CanExecute(object parameter)
+        {
+            return _canExecute.Invoke();
+        }
+
+        public event EventHandler CanExecuteChanged = delegate { };
+
+        public void UpdateCanExecuteState()
+        {
+            CanExecuteChanged(this, EventArgs.Empty);
+        }
+    }</PropertyValue>
+			<PropertyValue name="Item55.Position">5</PropertyValue>
+			<PropertyValue name="Item56.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item56.ID">E60776751FDC97B646EA1818F44EB146</PropertyValue>
+			<PropertyValue name="Item56.Name">CS DoSomething Says Hello</PropertyValue>
+			<PropertyValue name="Item56.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item56.Tab">MVVM Basic Commands</PropertyValue>
+			<PropertyValue name="Item56.TabID">MVVM Basic Commands</PropertyValue>
+			<PropertyValue name="Item56.OriginalTabID">MVVM Basic Commands</PropertyValue>
+			<PropertyValue name="Item56.OriginalTab">MVVM Basic Commands</PropertyValue>
+			<PropertyValue name="Item56.RecordType">1</PropertyValue>
+			<PropertyValue name="Item56.Data">DoSomething = new DelegateCommand(SayHello, CanSayHello);</PropertyValue>
+			<PropertyValue name="Item56.Position">6</PropertyValue>
+			<PropertyValue name="Item57.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item57.ID">A0B9EA175A459673381D9EAE0B908D07</PropertyValue>
+			<PropertyValue name="Item57.Name">CS SayHello</PropertyValue>
+			<PropertyValue name="Item57.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item57.Tab">MVVM Basic Commands</PropertyValue>
+			<PropertyValue name="Item57.TabID">MVVM Basic Commands</PropertyValue>
+			<PropertyValue name="Item57.OriginalTabID">MVVM Basic Commands</PropertyValue>
+			<PropertyValue name="Item57.OriginalTab">MVVM Basic Commands</PropertyValue>
+			<PropertyValue name="Item57.RecordType">1</PropertyValue>
+			<PropertyValue name="Item57.Data">private void SayHello()
+        {
+            MessageBox.Show("Hello " + Name);
+        }
+
+        private bool CanSayHello()
+        {
+            if (Name == "Bob") return true;
+            return false;
+        }</PropertyValue>
+			<PropertyValue name="Item57.Position">7</PropertyValue>
+			<PropertyValue name="Item58.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item58.ID">4FC5CACFBE75E123CC3EAD2DDDF9DAE6</PropertyValue>
+			<PropertyValue name="Item58.Name">00 XAML Attached Behaviour Binding</PropertyValue>
+			<PropertyValue name="Item58.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item58.Tab">MVVM Behaviours</PropertyValue>
+			<PropertyValue name="Item58.TabID">MVVM Behaviours</PropertyValue>
+			<PropertyValue name="Item58.OriginalTabID">MVVM Behaviours</PropertyValue>
+			<PropertyValue name="Item58.OriginalTab">MVVM Behaviours</PropertyValue>
+			<PropertyValue name="Item58.RecordType">1</PropertyValue>
+			<PropertyValue name="Item58.Data">&lt;TextBox Text="{Binding Name}" local:MouseDoubleClickToCommand.MappedCommand="{Binding DoSomething}"  Grid.RowSpan="2" /&gt;</PropertyValue>
+			<PropertyValue name="Item58.Position">1</PropertyValue>
+			<PropertyValue name="Item59.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item59.ID">E2492EC222B77F6F7452792D67D54FA9</PropertyValue>
+			<PropertyValue name="Item59.Name">00 CS MouseDoubleClickToCommandAttached</PropertyValue>
+			<PropertyValue name="Item59.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item59.Tab">MVVM Behaviours</PropertyValue>
+			<PropertyValue name="Item59.TabID">MVVM Behaviours</PropertyValue>
+			<PropertyValue name="Item59.OriginalTabID">MVVM Behaviours</PropertyValue>
+			<PropertyValue name="Item59.OriginalTab">MVVM Behaviours</PropertyValue>
+			<PropertyValue name="Item59.RecordType">1</PropertyValue>
+			<PropertyValue name="Item59.Data">public class MouseDoubleClickToCommand
+    {
+        private static ICommand _command;
+
+        public static readonly DependencyProperty MappedCommandProperty =
+            DependencyProperty.RegisterAttached("MappedCommand", typeof(ICommand), typeof(MouseDoubleClickToCommand),
+                                                new UIPropertyMetadata(null, PropertyChangedCallback));
+
+        private static void PropertyChangedCallback(DependencyObject dependencyObject,
+                                                    DependencyPropertyChangedEventArgs
+                                                        dependencyPropertyChangedEventArgs)
+        {
+            var textBox = dependencyObject as TextBox;
+            if (textBox == null) return;
+
+            _command = dependencyPropertyChangedEventArgs.NewValue as ICommand;
+            if (_command == null) return;
+
+            textBox.MouseDoubleClick += textBox_MouseDoubleClick;
+        }
+
+        private static void textBox_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            _command.Execute(null);
+        }
+
+
+        public static void SetMappedCommand(UIElement element, ICommand value)
+        {
+            element.SetValue(MappedCommandProperty, value);
+        }
+
+        public static ICommand GetMappedCommand(UIElement element)
+        {
+            return (ICommand)element.GetValue(MappedCommandProperty);
+        }
+    }</PropertyValue>
+			<PropertyValue name="Item59.Position">2</PropertyValue>
+			<PropertyValue name="Item60.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item60.ID">37EE4D594B8B1AC9F2B91CB4A0CA9244</PropertyValue>
+			<PropertyValue name="Item60.Name">00 CS Rating To Color Converter</PropertyValue>
+			<PropertyValue name="Item60.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item60.Tab">MVVM Converters</PropertyValue>
+			<PropertyValue name="Item60.TabID">MVVM Converters</PropertyValue>
+			<PropertyValue name="Item60.OriginalTabID">MVVM Converters</PropertyValue>
+			<PropertyValue name="Item60.OriginalTab">MVVM Converters</PropertyValue>
+			<PropertyValue name="Item60.RecordType">1</PropertyValue>
+			<PropertyValue name="Item60.Data">public class RatingToColor : MarkupExtension, IValueConverter
+    {
+
+        private RatingToColor _ratingToColor;
+
+        public override object ProvideValue(IServiceProvider serviceProvider)
+        {
+            return _ratingToColor ?? (_ratingToColor = new RatingToColor());
+        }
+
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            var rating = value as int?;
+            if (rating &gt; 2) return Brushes.Red;
+            if (rating &gt; 1) return Brushes.Orange;
+            return Brushes.LightGreen;
+        }
+
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            throw new NotImplementedException();
+        }
+    }</PropertyValue>
+			<PropertyValue name="Item60.Position">1</PropertyValue>
+			<PropertyValue name="Item61.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item61.ID">B82819F06CDA15CE28CE5F660AFDCC90</PropertyValue>
+			<PropertyValue name="Item61.Name">00 XAML Textbox to Converter</PropertyValue>
+			<PropertyValue name="Item61.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item61.Tab">MVVM Converters</PropertyValue>
+			<PropertyValue name="Item61.TabID">MVVM Converters</PropertyValue>
+			<PropertyValue name="Item61.OriginalTabID">MVVM Converters</PropertyValue>
+			<PropertyValue name="Item61.OriginalTab">MVVM Converters</PropertyValue>
+			<PropertyValue name="Item61.RecordType">1</PropertyValue>
+			<PropertyValue name="Item61.Data">&lt;TextBlock Text="{Binding Rating}" Background="{Binding Rating, Converter={local:RatingToColor}}" Grid.ColumnSpan="2"/&gt;</PropertyValue>
+			<PropertyValue name="Item61.Position">2</PropertyValue>
+			<PropertyValue name="Item62.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item62.ID">73600AA6DA6AC3D6B5D08CCDE34CF185</PropertyValue>
+			<PropertyValue name="Item62.Name">00 XAML Local Reference</PropertyValue>
+			<PropertyValue name="Item62.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item62.Tab">MVVM Converters</PropertyValue>
+			<PropertyValue name="Item62.TabID">MVVM Converters</PropertyValue>
+			<PropertyValue name="Item62.OriginalTabID">MVVM Converters</PropertyValue>
+			<PropertyValue name="Item62.OriginalTab">MVVM Converters</PropertyValue>
+			<PropertyValue name="Item62.RecordType">1</PropertyValue>
+			<PropertyValue name="Item62.Data">xmlns:local="clr-namespace:Converters"</PropertyValue>
+			<PropertyValue name="Item62.Position">3</PropertyValue>
+			<PropertyValue name="Item63.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item63.ID">FB603CEDBC27272A64541C12B900A02F</PropertyValue>
+			<PropertyValue name="Item63.Name">00 CS ViewModelLocator</PropertyValue>
+			<PropertyValue name="Item63.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item63.Tab">MVVM View First</PropertyValue>
+			<PropertyValue name="Item63.TabID">MVVM View First</PropertyValue>
+			<PropertyValue name="Item63.OriginalTabID">MVVM View First</PropertyValue>
+			<PropertyValue name="Item63.OriginalTab">MVVM View First</PropertyValue>
+			<PropertyValue name="Item63.RecordType">1</PropertyValue>
+			<PropertyValue name="Item63.Data">public class ViewModelLocator
+    {
+        public MainViewModel MainViewModel
+        {
+            get
+            {
+                return new MainViewModel {Name = "Mark"};
+            }
+        }
+    }</PropertyValue>
+			<PropertyValue name="Item63.Position">1</PropertyValue>
+			<PropertyValue name="Item64.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item64.ID">D842D8283E50AA251BECFCDC39A04867</PropertyValue>
+			<PropertyValue name="Item64.Name">00 XAML App.Resource</PropertyValue>
+			<PropertyValue name="Item64.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item64.Tab">MVVM View First</PropertyValue>
+			<PropertyValue name="Item64.TabID">MVVM View First</PropertyValue>
+			<PropertyValue name="Item64.OriginalTabID">MVVM View First</PropertyValue>
+			<PropertyValue name="Item64.OriginalTab">MVVM View First</PropertyValue>
+			<PropertyValue name="Item64.RecordType">1</PropertyValue>
+			<PropertyValue name="Item64.Data">&lt;Application.Resources&gt;
+         &lt;local:ViewModelLocator x:Key="ViewModelLocator"/&gt;
+    &lt;/Application.Resources&gt;</PropertyValue>
+			<PropertyValue name="Item64.Position">2</PropertyValue>
+			<PropertyValue name="Item65.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item65.ID">149563CB6B4B81C21F91AE6C0C787D02</PropertyValue>
+			<PropertyValue name="Item65.Name">00 XAML MainWindow Header</PropertyValue>
+			<PropertyValue name="Item65.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item65.Tab">MVVM View First</PropertyValue>
+			<PropertyValue name="Item65.TabID">MVVM View First</PropertyValue>
+			<PropertyValue name="Item65.OriginalTabID">MVVM View First</PropertyValue>
+			<PropertyValue name="Item65.OriginalTab">MVVM View First</PropertyValue>
+			<PropertyValue name="Item65.RecordType">1</PropertyValue>
+			<PropertyValue name="Item65.Data">DataContext="{Binding Source={StaticResource ViewModelLocator}, Path=MainViewModel}</PropertyValue>
+			<PropertyValue name="Item65.Position">3</PropertyValue>
+			<PropertyValue name="ItemCount">66</PropertyValue>
 		</Category>
 	</Category>
 </UserSettings>
